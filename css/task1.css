@@ -9,7 +9,7 @@ body{
     float: left;
     border: 2px solid #a1a1a1;
     border-radius: 25px;
-    background: url(../img/qusiba.jpg) no-repeat ;
+    background: url(../img/qusiba.jpg) no-repeat center ;
     background-size: contain;
 }
 
