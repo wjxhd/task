@@ -1,0 +1,19 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.square1{
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+    padding-bottom: 30%;
+    background: orange;
+    float: left;
+}
+div {
+    text-align:center;
+    border:2px solid #a1a1a1;
+    background:#dddddd;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
