@@ -9,19 +9,13 @@ body{
 }
 .b{
     height: 40px;
-    font-size: 18px;
-    color: aliceblue;
     margin: 30px;
     float: left;
-    text-align: center;
 }
 .d{
     height: 40px;
     float: right;
-    font-size: 18px;
-    color: aliceblue;
     margin: 30px;
-    text-align: center;
 }
 .logo{
     width: 38px;
