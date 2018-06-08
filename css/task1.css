@@ -1,38 +1,16 @@
-body{
-    padding:0;
+.body{
+    padding: 0;
     margin: 0;
-    background: #00CED1;
 }
 .square1{
     width: 30%;
-    height: 30%;
-}
-.arrow{
-    transform: scale(2);
-    margin: 46px;
-}
-.logo{
-    display: block;
-    margin: 10rem auto 11rem;
-}
-.div {
-    float: right;
-    margin: 10%;
-
-}
-.c{
-    float: right;
-    margin: 100px;
-}
-.b{
+    margin: 1%;
+    padding-bottom: 30%;
+    background: darkorange;
     float: left;
-    margin: 100px;
 }
-.z{
-    transform: scale(2);
-    margin: 35%;
-}
-.y{
-    transform: scale(2);
-    margin: 35%;
-}
+    div{
+        text-align: center;
+        border-radius: 15px;
+        border: 2px solid #a1a1a1;
+    }
