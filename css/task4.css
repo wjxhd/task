@@ -5,14 +5,12 @@ body{
 
 .square1{
     height: 45px;
-    width: 100%;
     background: #00CED1;
 }
 .logo {
     position: absolute;
     margin: 0;
     color: aliceblue;
-    vertical-align: middle;
     line-height: 45px;
     left: 20px;
 }
@@ -68,10 +66,7 @@ body{
 }
 .nice2{
     border: none;
-    text-align: center;
-    outline: medium;
     transform: translateY(-138%);
-    width: 30%;
 }
 .qmz{
      color: #00CED1;
