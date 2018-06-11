@@ -66,6 +66,7 @@ body{
 }
 .nice2{
     border: none;
+    outline: medium;
     transform: translateY(-138%);
 }
 .qmz{
