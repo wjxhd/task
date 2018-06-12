@@ -67,8 +67,8 @@ body{
 .nice2{
     border: none;
     outline: medium;
-    transform: translateY(-138%);
-    width: 55%;
+    vertical-align: top;
+    padding: 22px 0 22px 0;
 }
 .qmz{
      color: #00CED1;
