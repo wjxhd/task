@@ -50,7 +50,7 @@ body{
     left: calc(50% - 1rem);
     color: aliceblue;
     position: relative;
-    top: 28%;
+    line-height: 45px;
 }
 .why{
     float: right;
