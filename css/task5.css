@@ -7,9 +7,9 @@ body{
 }
 .sjx{
     color: white;
-    padding: 15px 0;
-    left: calc(50% - 1rem);
+    left: calc(50% - 2rem);
     position: absolute;
+    line-height: 50px;
 }
 .fhtp{
     height: 13px;
@@ -18,7 +18,7 @@ body{
     position: absolute;
 }
 .pyz{
-    height: 200px;
+    height: 165px;
     width: 100%;
     position: absolute;
 
@@ -28,23 +28,27 @@ body{
     width: 70px;
     position:relative;
     border-radius: 100%;
-    margin: 31px 20px 0 26px;
+    top: 55px;
+    left: 30px;
 }
 .xlb{
     height: 20px;
     width: 15px;
-    margin: 84px 245px 0 0;
     position: absolute;
+    top: 150px;
+    left: 120px;
 }
 .wz1{
     position:absolute;
-    margin: -59px -224px 0 114px;
     color: white;
+    top: 100px;
+    left: 120px;
 }
 .wz2{
     position: absolute;
-    margin: -33px 0 17px 140px;
     color: white;
+    top: 133px;
+    left: 145px;
 }
 .lk{
     margin: 100px 0 0 10px;
@@ -66,36 +70,20 @@ body{
 }
 .xx3{
     border-right-style: groove;
-    padding: 1px;
+    line-height: 20px;
     color: #9E9E9E;
     margin: 0 250px 0 20px;
     position: absolute;
+    font-size: 11px;
 }
 .xx4{
-    margin: 0 0 0 110px;
+    margin: 0 30px 0 80px;
 }
-.hx1{
+.hx1 {
     margin: 18px;
 }
-.xx5{
-    border-right-style: groove;
-    padding: 1px;
-    color: #9E9E9E;
-    margin: 0 250px 0 20px;
-    position: absolute;
-}
-.xx6{
-    margin: 0 0 0 110px;
-}
-.xx7{
-    border-right-style: groove;
-    padding: 1px;
-    color: #9E9E9E;
-    margin: 0 250px 0 20px;
-    position: absolute;
-}
 .xx8{
-    margin: 0 0 0 110px;
+    margin: 0 0 0 80px;
     color: #F44336;
 }
 .xx9{
@@ -104,13 +92,11 @@ body{
     color: #9E9E9E;
     margin: 0 250px 0 20px;
     position: absolute;
-}
-.xx10{
-    margin: 0 0 0 110px;
+    font-size: 11px;
 }
 .tb1{
-    height: 50px;
-    width: 47%;
+    height: 40px;
+    width: 45%;
     margin: 4px;
     color: #00BCD4;
     border-radius: 5px;
@@ -123,8 +109,8 @@ body{
     width: 100%;
 }
 .tb2{
-    height: 50px;
-    width: 47%;
+    height: 40px;
+    width: 45%;
     margin: 4px;
     float: right;
     background: #5fc0cd;
@@ -134,4 +120,7 @@ body{
 .tttt{
     height: 1280px;
     width: 720px;
+}
+.hx2{
+    margin: 18px 18px 100px 18px;
 }
