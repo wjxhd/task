@@ -2,11 +2,136 @@ body{
     margin: 0;
 }
 .header{
-    width: 100%;
     height: 50px;
     background: #00CED1;
 }
 .sjx{
     color: white;
+    padding: 15px 0;
+    left: calc(50% - 1rem);
+    position: absolute;
+}
+.fhtp{
+    height: 13px;
+   width: 17px;
+    margin: 18px;
+    position: absolute;
+}
+.pyz{
+    height: 200px;
+    width: 100%;
+    position: absolute;
 
+}
+.xq{
+    height: 80px;
+    width: 70px;
+    position:relative;
+    border-radius: 100%;
+    margin: 31px 20px 0 26px;
+}
+.xlb{
+    height: 20px;
+    width: 15px;
+    margin: 84px 245px 0 0;
+    position: absolute;
+}
+.wz1{
+    position:absolute;
+    margin: -59px -224px 0 114px;
+    color: white;
+}
+.wz2{
+    position: absolute;
+    margin: -33px 0 17px 140px;
+    color: white;
+}
+.lk{
+    margin: 100px 0 0 10px;
+    color: #00CED1;
+}
+.ysd{
+    position: absolute;
+    margin: -20px 0 0 20px;
+}
+.xx1{
+    height: 23px;
+    width: 24px;
+    margin:  0 5px -5px 15px;
+}
+.xx2{
+    height: 23px;
+    width: 24px;
+    margin:  0 5px -5px 15px;
+}
+.xx3{
+    border-right-style: groove;
+    padding: 1px;
+    color: #9E9E9E;
+    margin: 0 250px 0 20px;
+    position: absolute;
+}
+.xx4{
+    margin: 0 0 0 110px;
+}
+.hx1{
+    margin: 18px;
+}
+.xx5{
+    border-right-style: groove;
+    padding: 1px;
+    color: #9E9E9E;
+    margin: 0 250px 0 20px;
+    position: absolute;
+}
+.xx6{
+    margin: 0 0 0 110px;
+}
+.xx7{
+    border-right-style: groove;
+    padding: 1px;
+    color: #9E9E9E;
+    margin: 0 250px 0 20px;
+    position: absolute;
+}
+.xx8{
+    margin: 0 0 0 110px;
+    color: #F44336;
+}
+.xx9{
+    border-right-style: groove;
+    padding: 1px;
+    color: #9E9E9E;
+    margin: 0 250px 0 20px;
+    position: absolute;
+}
+.xx10{
+    margin: 0 0 0 110px;
+}
+.tb1{
+    height: 50px;
+    width: 47%;
+    margin: 4px;
+    color: #00BCD4;
+    border-radius: 5px;
+    background: azure;
+}
+.kanwo{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+.tb2{
+    height: 50px;
+    width: 47%;
+    margin: 4px;
+    float: right;
+    background: #5fc0cd;
+    color: white;
+    border-radius: 5px;
+}
+.tttt{
+    height: 1280px;
+    width: 720px;
 }
