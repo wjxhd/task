@@ -59,13 +59,9 @@ body{
     margin: -20px 0 0 20px;
 }
 .xx1{
-    height: 23px;
-    width: 24px;
     margin:  0 5px -5px 15px;
 }
 .xx2{
-    height: 23px;
-    width: 24px;
     margin:  0 5px -5px 15px;
 }
 .xx3{
@@ -90,8 +86,12 @@ body{
     border-right-style: groove;
     color: #9E9E9E;
     margin: 0 0 0 20px;
-    position: absolute;
     padding: 0 10px 0 0;
+    position: absolute;
+    top: 0;
+    bottom: 18px;
+    display: flex;
+    align-items: center;
 }
 .tb1{
     height: 40px;
@@ -105,7 +105,6 @@ body{
 .kanwo{
     position:fixed;
     bottom:0;
-    left:0;
     width: 100%;
 }
 .tb2{
@@ -117,10 +116,9 @@ body{
     color: white;
     border-radius: 5px;
 }
-.tttt{
-    height: 1280px;
-    width: 720px;
-}
-.hx2{
-    margin: 18px 18px 100px 18px;
+.rbyx{
+    position: relative;
+    border-bottom: 1px solid;
+    padding-bottom: 18px;
+    margin-bottom: 100px;
 }
