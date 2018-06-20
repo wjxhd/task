@@ -40,7 +40,7 @@ header {
 .dowe{
     width: 25px;
     height: 25px;
-    margin: 6px;
+    margin: 5px 0 0 -5px;
     position: absolute;
     left: 95%;
 }
@@ -80,6 +80,9 @@ ul,li{
     position: absolute;
     width: 100%;
     background-color: #f9f9f9;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 li.li:hover{
     background-color: #5FC0CD;
@@ -188,7 +191,4 @@ li.li:hover{
 .aniu3{
     width: 30px;
     height: 30px;
-}
-.dl{
-
 }
