@@ -194,4 +194,8 @@ li.li:hover{
 }
 .ddbox-1{
     padding-bottom: 140px;
+    height: 1.8rem;
+    border-bottom: .001rem solid #E1E5E7;
+    background: #FFFFFF;
+    line-height: .55rem;
 }
