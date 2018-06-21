@@ -41,9 +41,9 @@ header {
 .dowe{
     width: 25px;
     height: 25px;
-    margin: 5px 0 0 -5px;
     position: absolute;
-    left: 95%;
+    left: 93%;
+    top: 6px;
 }
 .box{
     position:sticky;
@@ -186,7 +186,7 @@ li.li:hover{
     top: 3px;
     text-align: center;
     font-size: 13px;
-    margin:0 20% 0 0;
+    margin:0 20% 0 0;.
 }
 .aniu3{
     width: 30px;
