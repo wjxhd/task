@@ -160,7 +160,7 @@ li.li:hover{
     bottom: 0;
     width: 100%;
     background: #f3f4f6;
-    padding: 3px 0 3px 0;
+    padding: 10px 0;
 }
 .aniu1{
     height: 50px;
@@ -191,4 +191,7 @@ li.li:hover{
 .aniu3{
     width: 30px;
     height: 30px;
+}
+.ddbox-1{
+    padding-bottom: 140px;
 }
