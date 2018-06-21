@@ -17,6 +17,7 @@ header {
     line-height: .88rem;
     text-align: center;
     word-spacing: -10px;
+    z-index: 22;
 }
 .gz{
     width:1.44rem;
