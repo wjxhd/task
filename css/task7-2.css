@@ -148,31 +148,37 @@ body{
 }
 .k{
     background: url(../img/task7-2.11.png) no-repeat;
-    background-size: 60px 15px;
+    background-size: 16vw 4vw;
     display: inline-block;
 
 }
 .k1{
-    height: 15px;
-    width: 15px;
+    height: 4vw;
+    width: 4vw;
     background-position: 0 0;
 }
 .k2{
-    height: 15px;
-    width: 15px;
-    background-position: -15px 0;
+    height: 4vw;
+    width: 4vw;
+    background-position: -4vw 0;
 }
 .k3{
-    height: 15px;
-    width: 15px;
-    background-position: -30px 0;
+    height: 4vw;
+    width: 4vw;
+    background-position: -8vw 0;
 }
 .k4{
-    height: 15px;
-    width: 15px;
-    background-position: -45px 0;
+    height: 4vw;
+    width: 4vw;
+    background-position: -12vw 0;
 }
 .ten{
     text-decoration:none;
     color: aliceblue;
+}
+.hide{
+    display: none;
+}
+.square1:hover .hide{
+    display: block;
 }

@@ -50,8 +50,7 @@ body{
     color: #f8b547;
     font-size: 20px;
     padding-bottom: 15px;
-    border-bottom-style: groove;
-    border-bottom-color: #FF9800;
+    border-bottom: 1px solid;
 }
 .frame3{
     width: 90%;

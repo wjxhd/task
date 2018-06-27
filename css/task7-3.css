@@ -43,8 +43,6 @@ body{
     margin: 10px;
 }
 .script2{
-    position: absolute;
-    top: 170px;
     color: #fbc86c;
     margin: 20px 40px;
     font-size: 15px;
@@ -53,12 +51,12 @@ body{
 .sequence{
     font-size: 12px;
     color: aliceblue;
-    position: absolute;
-    top: 17rem;
-    margin: 0 40px;
+    float: left;
+    margin: 0 0 0 4rem;
 }
 .step{
     margin: 3px;
+    text-align: left;
 }
 .line{
     margin: 0;
@@ -73,7 +71,6 @@ body{
     font-size: 13px;
 }
 .script23{
-    margin: 0 100px 0 0;
     font-size: 18px;
 }
 .script-x{
@@ -84,6 +81,8 @@ body{
 .script-y{
     color: darkgray;
     font-size: 12px;
+    float: right;
+    margin: 0 30px;
 }
 .button{
     height: 60px;
@@ -120,7 +119,7 @@ body{
     color: aliceblue;
     padding-bottom: 100px;
 }
-.ten{
-    text-decoration:none;
+.ten {
+    text-decoration: none;
     color: aliceblue;
 }
