@@ -19,6 +19,7 @@ body{
     top: 50%;
     left: 5%;
     transform: translate(-50%,-50%);
+    margin: 0 0 0 10px;
 }
 .picture2{
     height: 30px;
@@ -27,6 +28,7 @@ body{
     top: 50%;
     left: 95%;
     transform: translate(-50%,-50%);
+    margin: 0 10px 0 0;
 }
 .script1{
     color: aliceblue;
