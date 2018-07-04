@@ -63,7 +63,6 @@ body {
     }
 
 }
-
 .name {
     color: #29b078;
 }
@@ -93,7 +92,6 @@ body {
     }
 
 }
-
 .right1 {
     color: #999;
     line-height: 2rem;
@@ -126,44 +124,17 @@ body {
     border: none;
     background: #29b078;
 }
-.navbar-right{
-    float: right !important;
-    margin-right: -15px;
-}
-#navbar-menu li{
-    font-size: 2rem;
-    color: #fff;
-    text-align: center;
-    list-style-type: none;
-}
 .navbar-collapse.collapse{
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-body{
-    background: #fafafa;
-}
-header {
-    background: #fff;
-}
-
 .top {
     height: 4rem;
     color: #29b078;
     font-size: 2rem;
     background: #fff;
 }
-
 .service-tel {
     display: inline-block;
     width: 40%;
@@ -212,7 +183,7 @@ header {
     background: #29b078;
 }
 #navbar-menu li {
-    font-size: 2rem;
+    font-size: 15px;
     color: #fff;
     text-align: center;
     list-style-type: none;
@@ -269,4 +240,14 @@ header {
 }
 .a:link{
     color: #FFFFFF;
+}
+.col-md-4{
+    margin: 20px 0;
+}
+.col-md-5{
+    margin: 20px 0;
+}
+.p7{
+    border-bottom-style: outset;
+    border-color: #7cfc0059;
 }
