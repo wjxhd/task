@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background: #fff;
+}
 body{
     margin: 0;
     background: #fafafa;
@@ -6,26 +18,6 @@ body{
     height: 50px;
     width: 100%;
     background: #ffffff;
-}
-.sprite{
-    background: url(../img/task8-1.1.png) no-repeat;
-    background-size:36px 12px;
-    display: inline-block;
-}
-.sprite1{
-    height:12px;
-    width:12px;
-    background-position:0 0;
-}
-.sprite2{
-    height:12px;
-    width:12px;
-    background-position:-12px 0;
-}
-.sprite3{
-    height: 12px;
-    width: 12px;
-    background-position: -24px 0;
 }
 .picture{
     height: 16rem;
@@ -40,8 +32,8 @@ body{
     background: #29b078;
 }
 .container{
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -72,12 +64,6 @@ body{
     background-color: #29b378;
 
 }
-.navbar{
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-}
 .carousel {
     position: relative;
 }
@@ -88,21 +74,8 @@ body{
     margin-left: auto;
     float: right;
 }
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-        margin-right: 0;
-        margin-left: 0;
-        float: left;
-    border-bottom: 2px solid;
-}
-.navbar-nav{
-    border-bottom: 2px solid;
-}
-.navbar-collapse{
-    background: #28b349;
-}
 .navbar{
     margin: 0;
-    background: #28b349;
 }
 .yz{
     background: #28b349;
@@ -126,8 +99,9 @@ body{
     height: 60px;
     border-right-style: ridge;
 }
-script{
+.scrirt{
     color: darkgrey;
+
 }
 .col-sm-9{
     width: 100%;
@@ -149,7 +123,7 @@ script{
 .p2{
     height: 100px;
     width: 100px;
-    background: azure;
+    background: #ffffff;
     text-align: center;
     line-height: 100px;
     border-radius: 100%;
@@ -210,4 +184,115 @@ script{
 .hei{
     font-size: 18px;
     color: black;
+}
+.erwei{
+    height: 92px;
+    width: 92px;
+}
+.bjing{
+    background: #29b378;
+    color: azure;
+}
+.last{
+    text-align: center;
+    color: azure;
+}
+.foot-wrap{
+    color: azure;
+}
+.p7{
+    border-bottom-style: inset;
+}
+.k1{
+    font-size: 30px;
+}
+.navbar-nav:hover.border{
+    border-bottom: 2px solid;
+}
+
+.top {
+    height: 4rem;
+    color: #29b078;
+    font-size: 2rem;
+    background: #fff;
+}
+
+.service-tel {
+    display: inline-block;
+    width: 40%;
+    line-height: 4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.contact {
+    float: right;
+    line-height: 4rem;
+}
+
+.width-col {
+    color: #fff;
+    width: 100%;
+    background: #29b078;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    margin-right: 0;
+}
+
+@media (min-width: 767px) {
+    .navbar-header span {
+        line-height: 80px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar-header span {
+        line-height: 56px;
+    }
+}
+
+.background {
+    margin-bottom: 0;
+    color: #fff;
+    border: none;
+    background: #29b078;
+}
+
+#navbar-menu li {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    list-style-type: none;
+}
+
+#navbar-menu a:link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#navbar-menu a:visited {
+    color: #fff;
+}
+
+.background a:hover {
+    color: #fff;
+    padding-bottom: 26px;
+    border-bottom: 5px solid #fff;
+}
+
+#navbar-menu .navbar-right a {
+    margin-left: 2rem;
+    line-height: 80px;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
 }
