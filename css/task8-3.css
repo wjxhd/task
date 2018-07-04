@@ -256,7 +256,8 @@ header {
     color: azure;
 }
 .p7{
-    border-bottom-style: inset;
+    border-bottom-style: outset;
+    border-color: #7cfc0059;
 }
 .row{
     text-align: center;
