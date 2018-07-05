@@ -428,3 +428,6 @@ p{
     width: 100%;
     text-align: center;
 }
+.col-lg-2 {
+    width: 20%;
+}
