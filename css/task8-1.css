@@ -85,11 +85,6 @@ body{
     background: #28b349;
     color: #e7e7e7;
 }
-.col-sm-3{
-    width: 21%;
-    text-align: center;
-    margin: 2%;
-}
 .picture6{
     vertical-align: middle;
     height: 60px;
@@ -103,16 +98,10 @@ body{
     color: darkgrey;
 
 }
-.col-sm-9{
-    width: 100%;
-}
 .hello{
     font-size: 30px;
     text-align: center;
     line-height: 50px;
-}
-.col-sm-6{
-    width: 21%;
 }
 .primary{
     border-radius: 100%;
@@ -313,9 +302,6 @@ body{
 p{
     margin: 0;
 }
-.flex{
-
-}
 .business img{
     max-height: 178px;
     max-width: 230px;
@@ -432,9 +418,6 @@ p{
     font-weight: bold;
     line-height: 4rem;
     text-align: center;
-}
-.col-md-3{
-    width: 25%;
 }
 .borderline{
     width: 80px;
