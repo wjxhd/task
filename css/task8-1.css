@@ -32,8 +32,8 @@ body{
     background: #29b078;
 }
 .container{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -121,12 +121,13 @@ body{
     background: azure;
 }
 .p2{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background: #ffffff;
     text-align: center;
-    line-height: 100px;
+    line-height: 80px;
     border-radius: 100%;
+    flex-shrink: 0;
 }
 .p3{
     line-height: 127px;
@@ -139,34 +140,24 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.p9{
+.p9 {
     width: 20%;
     height: 120px;
     background: azure;
     text-align: center;
-}
-.row{
-    text-align: center;
-    width: 100%;
-    margin: 10px -15px;
 }
 .p5{
     display: flex;
     align-items: center;
 }
 .col-md-2{
-    width: 20%;
     background: #ffffff;
-    height: 180px;
     text-align: center;
-    line-height: 180px;
 }
 .primary{
     margin: 10px 0;
 }
 .p4{
-    width: 23%;
-    height: 300px;
     background: #ffffff;
     margin: 8px;
 }
@@ -189,19 +180,8 @@ body{
     height: 92px;
     width: 92px;
 }
-.bjing{
-    background: #29b378;
+.foot-wrap {
     color: azure;
-}
-.last{
-    text-align: center;
-    color: azure;
-}
-.foot-wrap{
-    color: azure;
-}
-.p7{
-    border-bottom-style: inset;
 }
 .k1{
     font-size: 30px;
@@ -295,4 +275,180 @@ body{
 }
 .container{
     width: 100%;
+}
+.orange{
+    width: 100%;
+}
+.page{
+    font-size: 25px;
+}
+.venture{
+    background: #FFFFFF;
+    width: 100%;
+}
+.last{
+    text-align: center;
+    color: azure;
+}
+.bjing{
+    background: #29b378;
+    color: azure;
+}
+.a:link{
+    color: #FFFFFF;
+}
+.col-md-4{
+    margin: 20px 0;
+}
+.col-md-5{
+    margin: 20px 0;
+}
+.p7{
+    border-bottom-style: outset;
+    border-color: #7cfc0059;
+}
+.four{
+    margin: 35px 0;
+}
+p{
+    margin: 0;
+}
+.flex{
+
+}
+.business img{
+    max-height: 178px;
+    max-width: 230px;
+}
+.business .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/task.png);
+}
+.adviser{
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.chief{
+    color: #999;
+}
+.indivi{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.avatar1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/task.png);
+}
+.avatar2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/task.png);
+}
+.avatar3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/task.png);
+}
+.four{
+    margin: 35px 0;
+}
+.main-intr{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3rem 0;
+    text-align: center;
+}
+.three{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: #29b078;
+    font-size: 2rem;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 1px #333333;
+}
+.wll{
+    color: #999;
+    margin: 0 10px;
+}
+.business{
+    text-align: center;
+}
+.img{
+    margin: 20px 0;
+}
+.business .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+    border: 1px solid #fff;
+    background-color: white;
+}
+.business img{
+    max-height: 178px;
+    max-width: 230px;
+}
+.container{
+    width: 970px;
+}
+.write{
+    width: 100%;
+    background: #fff;
+}
+.friend{
+    font-weight: bold;
+    line-height: 4rem;
+    text-align: center;
+}
+.col-md-3{
+    width: 25%;
+}
+.borderline{
+    width: 80px;
+    border-bottom: 1px solid #fff;
+}
+.borderline span{
+    vertical-align: middle;
+    color: #999;
+}
+.spot{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #999;
 }
