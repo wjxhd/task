@@ -31,12 +31,6 @@ body{
     width: 100%;
     background: #29b078;
 }
-.container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .picture1{
     float: right;
 }
@@ -158,9 +152,6 @@ body{
     color: darkgrey;
     font-size: 8px;
 }
-.col-md-1{
-    width: 10%;
-}
 .hei{
     font-size: 18px;
     color: black;
@@ -202,7 +193,6 @@ body{
 
 .width-col {
     color: #fff;
-    width: 100%;
     background: #29b078;
 }
 
@@ -393,6 +383,8 @@ p{
 }
 .img{
     margin: 20px 0;
+    padding: 0;
+    text-align: center;
 }
 .business .imgs{
     display: flex;
@@ -406,9 +398,6 @@ p{
 .business img{
     max-height: 178px;
     max-width: 230px;
-}
-.container{
-    width: 970px;
 }
 .write{
     width: 100%;
@@ -434,4 +423,8 @@ p{
     margin-right: 5px;
     border-radius: 50%;
     background: #999;
+}
+.container{
+    width: 100%;
+    text-align: center;
 }
