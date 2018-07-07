@@ -167,10 +167,10 @@ body{
     font-size: 30px;
 }
 .navbar-nav:hover.border{
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 
-.top {
+.currency {
     height: 4rem;
     color: #29b078;
     font-size: 2rem;
@@ -248,8 +248,8 @@ body{
 }
 
 #navbar-menu .navbar-right a {
-    margin-left: 2rem;
-    line-height: 80px;
+    margin-left: 20px;
+    line-height: 50px;
     text-decoration: none;
 }
 .container{
@@ -286,7 +286,7 @@ body{
     border-bottom-style: outset;
     border-color: #7cfc0059;
 }
-.four{
+.two{
     margin: 35px 0;
 }
 p{
@@ -347,10 +347,7 @@ p{
     border-radius: 50%;
     background-image: url(../img/task.png);
 }
-.four{
-    margin: 35px 0;
-}
-.main-intr{
+.currency{
     font-size: 2rem;
     font-weight: bold;
     margin: 3rem 0;

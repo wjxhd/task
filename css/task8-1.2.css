@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fafafa;
+}
+.one{
+    text-align: center;
+    color: darkgray;
+}
+.two{
+    margin: 60px 0;
+}
+.three{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture{
+    vertical-align: middle;
+    height: 70px;
+}
+.three1{
+    vertical-align: middle;
+    border-right-style: groove;
+    margin-top: 20px;
+}
+.note{
+    font-size: 25px;
+    color: black;
+}
+.whole{
+    font-size: 30px;
+    text-align: center;
+}
+.eight{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    line-height: 80px;
+    text-align: center;
+    box-shadow: 0 0 1px #333333;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.container{
+    width: 100%;
+}
+.writing{
+    color: #dddddd;
+}
+.three2{
+    margin-top: 20px;
+}
+
+.qotre{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/task.png);
+}
+.box{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.case{
+    text-align: center;
+    background: #ffffff;
+}
+.col-lg-2 {
+    width: 20%;
+}
+.print{
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+    line-height: 200px;
+    background: #ffffff;
+}
+.case.lnc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+    border: 1px solid #fff;
+    background-color: white;
+}
+.case.print{
+    max-height: 178px;
+    max-width: 230px;
+}
+.righ {
+    width: 100%;
+    background: #ffffff;
+}
+.xyz{
+    width: 80px;
+    border-bottom: 1px solid #fff;
+}
+.spot{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #999;
+}
+.xyz.spot{
+    vertical-align: middle;
+    color: #999;
+}
+@media screen and (max-width:770px){
+    .col-lg-2{
+        width: 100%;
+    }
+}
+@media screen and (min-width:840px){
+    .col-yh-12{
+        width: 10%;
+    }
+}
