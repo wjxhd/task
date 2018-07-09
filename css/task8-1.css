@@ -129,3 +129,16 @@ body{
         width: 10%;
     }
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: azure;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: #29b378;
+}

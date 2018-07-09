@@ -1,0 +1,156 @@
+body{
+    background: #fafafa;
+}
+.three{
+
+    color: darkgreen;
+}
+.two{
+    font-size: 20px;
+}
+.one{
+    height: 50px;
+    width: 100%;
+    border-bottom-style: groove;
+    margin: 20px 0;
+}
+.direction{
+    color: darkgray;
+}
+.six{
+    margin: 0 10px;
+}
+a:hover{
+    background: #29b378;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.position{
+    height: 50px;
+}
+.develop{
+    border-bottom-style: groove;
+    height: 40px;
+    margin: 30px 0;
+}
+.list{
+    background: #ffffff;
+    height: 108px;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+}
+.ceo{
+    float: left;
+    border-style: groove;
+    border-radius: 5px;
+    margin: 0 3%;
+}
+.script{
+    font-size: 20px;
+    font-weight: bold;
+}
+.script2{
+    display: block;
+}
+.script3{
+    color: darkgrey;
+    line-height: 40px;
+}
+.list2{
+    width: 50%;
+    border-right-style: ridge;
+    height: 40px;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+    float: left;
+}
+.list3{
+    width: 50%;
+    height: 40px;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+    float: right;
+}
+.script4{
+    color: darkgrey;
+    line-height: 40px;
+}
+.scriptone{
+    color: crimson;
+}
+.scripttwo{
+    color: black;
+}
+.list4{
+    height: 120px;
+    width: 40%;
+    float: left;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+    border-right-style: ridge;
+}
+.script5{
+    line-height: 120px;
+    text-align: center;
+    color: darkgrey;
+}
+.list5{
+    width: 60%;
+    height: 40px;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+    float: right;
+}
+.script6{
+    line-height: 40px;
+}
+.script7{
+    float: right;
+}
+.list6{
+    height: 40px;
+    float: left;
+    border-bottom-style: ridge;
+    border-bottom-color: currentColor;
+    width: 100%;
+    font-weight: bold;
+}
+.script8{
+    line-height: 40px;
+}
+.script9{
+    color: crimson;
+}
+.list7{
+    float: left;
+    height: 40px;
+    width: 100%;
+    color: darkgray;
+}
+.hover{
+  position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.ceo:hover .hover{
+display: block;
+    transform: translate(0px,0px);
+}
+.hover1{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+.hover2{
+    margin: 0 15px;
+}
+.col-lg-4{
+    width: 30%;
+}

@@ -74,61 +74,53 @@
                 浮动不是任意的，其还是在父元素的范围之中，不能脱离于父元素的内容区域。 </p>
 
         </section>
+
+        <section style="...">
+            <p>
+
+                在非IE浏览器（如Firefox、Chrome）下，当容器的高度为auto，且容器的内容中有浮动（float为
+                left或right）的元素，在这种情况下，容器的高度不能自动伸长以适应内容的高度，使得内容溢出
+                到容器外面而影响（甚至破坏）布局的现象。这个现象叫浮动溢出，为了防止这个现象的出现而进
+                行的CSS处理，就叫CSS清除浮动。</p>
+        </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>3.常见问题</h3></section>
         </section>
         <section>
-            <p>flex-wrap 在开发时用这个来让项目换行，当给了父级高度时，如果只有俩项目，那么这两个项目会平分容器高度，比如，父级容器height：200px；当使用wrap的时候这两个项目的高度各100px; 三个项目就继续平分。 </p>
-            <p>如果想调节项目间的距离可以使用margin，padding来解决，也可以在刚开始不给容器高度，给项目高度来撑开；
-                IE10下面使用flex-wrap，需要给容器设置宽度，并且项目要设置为块元素 ，行内元素使用flex-wrap不会自动换行。</p>
-            <p>同一个元素同时使用position(absolute、flexd)和flex时 ，flex属性会失效，解决办法就是在flex元素外面再套一层父级来使用position属性，父级要设置宽度！，相对定位不会导致felx失效！</p>
+            <p>浮动会导致父元素高度坍塌，因为浮动脱离文档流，浮动以后不占文档流的位置，撑开的父元素高度会坍塌。</p>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>4 解决方案</h3></section>
+            <section style="...">
+                <p>父级div给出固定的高度。手动定义height，这样就解决了父级元素获取不到高度的问题。
+
+                    优点：代码量少，简单容易掌握。
+
+                    缺点：只适合高度固定的布局，如果高度和父级div不同会出现问题。</p>
+
+<section style="...">
+
+    <p>添加一个新的标签，如div，或者br，并且设置标签的属性clear：both；清除浮动，让父级能自动获得高度。
+
+        优点：代码少，浏览器支持，不会各种问题。
+
+        缺点：会有很多空的div或者br。
+    </p>
+</section>
+
+<section style="...">
+    <p>父级div跟着浮动，所有代码一起浮动就会形成一个整体，
+
+        缺点：会产生新的问题，不建议使用。</p>
+
+</section>
+
+
+            </section>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>5.编码实战</h3>
                 <a href="../demo.html"><h3>demo</h3></a></section>
-        </section>
-        <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
-            <section style="text-align: center; top: 330px; display: none;">
-                <li> 一、flex-direction: （元素排列方向）</li>
-                <li>  flex-direction:row （横向从左到右排列==左对齐）</li>
-                <li>   flex-direction:row-reverse （与row 相反）</li>
-                <li> flex-direction:column （从上往下排列==顶对齐）</li>
-                <li> flex-direction:column-reverse （与column 相反）</li>
-            </section>     <section>
-            <li> 二、flex-wrap: （内容一行容不下的时候才有效）</li>
-            　　　　<li> flex-wrap:nowrap （超出不换行，很奇怪里面的宽度会变成100%）</li>
-            <li>flex-wrap:wrap （超出按父级的高度平分）</li>
-            <li> flex-wrap:wrap-reverse（与wrap 相反）</li>
-        </section>
-            <section>
-
-                <li>     三、justify-content: （水平对齐方式）
-                    　　　　　※ flex-start （水平左对齐）         </li>
-                <li>         　※  justify-content:flex-end; （水平右对齐）     </li>
-                <li>       　※ justify-content:center; （水平居中对齐）       </li>
-                <li>     justify-content:space-around; （两端间距对其）         </li>
-                <li>※ justify-content:space-between; （两端对齐）</li>
-            </section>
-            <section>
-                <li>   四、align-items: （垂直对齐方式）
-                    　　　　　※ align-items:stretch; （默认）  </li>
-                <li>       　※ align-items:flex-start; （上对齐，和默认差不多）     </li>
-                <li>        align-items:flex-end; （下对齐）  </li>
-                <li>         align-items:center;（居中对齐）        </li>
-
-            </section>
-
-        </section>
-        <section style="text-align: center; top: 330px; display: none;"><h3>圣杯布局</h3>
-            <p>圣杯布局（Holy Grail Layout）指的是一种最常见的网站布局。页面从上到下，分成三个部分：头部（header），躯干（body），尾部（footer）。其中躯干又水平分成三栏，从左到右为：导航、主栏、副栏。</p>
-        </section>
-        <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
-            <section style="text-align: center; top: 330px; display: none;"><h3>固定的底栏</h3>
-                <p>有时，页面内容太少，无法占满一屏的高度，底栏就会抬高到页面的中间。这时可以采用Flex布局，让底栏总是出现在页面的底部。</p>
-            </section>
         </section>
 
 
@@ -150,7 +142,6 @@
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future">
             <h3>7.参考文献</h3>
-            <p>参考：<a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html">Flex 布局教程：实例篇</a></p>
         </section>
         <section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;">
             <h3>8 更多讨论</h3>
