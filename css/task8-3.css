@@ -141,7 +141,7 @@ a{
     height: 100%;
     display: none;
 }
-.ceo:hover .hover{
+.cfo:hover .hover{
     display: block;
     animation:myfirst 5s;
     -moz-animation:myfirst 5s; /* Firefox */
