@@ -116,7 +116,7 @@ body{
     vertical-align: middle;
     color: #999;
 }
-@media screen and (max-width:770px){
+@media screen and (max-width:1000px){
     .col-lg-2{
         width: 100%;
     }
@@ -138,4 +138,11 @@ a:hover{
 }
 .link:hover{
     color: #29b378;
+}
+.print:hover{
+    border-style: groove;
+}
+.twotwo{
+    width: 200px;
+
 }

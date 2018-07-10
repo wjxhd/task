@@ -147,6 +147,7 @@ a:hover{
 }
 .cfo:hover .hover{
     display: block;
+    z-index: 5;
     animation:myfirst 5s;
     -moz-animation:myfirst 5s; /* Firefox */
     -webkit-animation:myfirst 5s; /* Safari and Chrome */

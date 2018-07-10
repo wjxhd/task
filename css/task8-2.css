@@ -103,7 +103,7 @@ body {
 }
 
 .layout1 {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .tips{
     display: inline-block;
@@ -246,5 +246,11 @@ body {
 @media screen and (max-width:1000px){
     .tudou img{
         float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .tudou{
+        text-align: center;
     }
 }
