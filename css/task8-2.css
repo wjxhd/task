@@ -15,16 +15,16 @@ body {
     width: 100%;
 }
 
-.home {
+.head {
     font-size: 2rem;
     margin: 3rem 0;
 }
 
-.color {
+.layout {
     color: #29b078;
 }
 
-.joint-venture {
+.mayunyun {
     font-size: 1.4rem;
     background: #fff;
 }
@@ -41,7 +41,7 @@ body {
     line-height: 4rem;
 }
 
-.circular {
+.content2 {
     margin-left: 40%;
     margin-right: 7px;
     display: inline-block;
@@ -63,15 +63,15 @@ body {
     }
 
 }
-.name {
+.content3 {
     color: #29b078;
 }
 
-.houver:hover .circular {
+.content1:hover .content2 {
     background: #ff7527;
 }
 
-.houver:hover .name {
+.content1:hover .content3 {
     color: #ff7527;
 }
 .tudou img {
@@ -92,21 +92,21 @@ body {
     }
 
 }
-.right1 {
+.arr {
     color: #999;
     line-height: 2rem;
     background: #fff;
 }
 
-.brief {
+.slmmary {
     text-indent: 2rem;
     margin: 2rem 0;
 }
 
-.buttom-but {
+.layout1 {
     margin-bottom: 200px;
 }
-.service-tel{
+.tips{
     display: inline-block;
     width: 40%;
     line-height: 4rem;
@@ -129,21 +129,12 @@ body {
     padding-bottom: 0;
     overflow: visible !important;
 }
-.top {
+.wrapper {
     height: 4rem;
     color: #29b078;
     font-size: 2rem;
     background: #fff;
 }
-.service-tel {
-    display: inline-block;
-    width: 40%;
-    line-height: 4rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
 .contact {
     float: right;
     line-height: 4rem;
@@ -250,4 +241,9 @@ body {
 .p7{
     border-bottom-style: outset;
     border-color: #7cfc0059;
+}
+.content1{
+    color: #fff;
+    padding-bottom: 26px;
+    border-bottom: 5px solid #fff;
 }

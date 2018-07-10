@@ -115,3 +115,10 @@ header {
 .last{
     text-align: center;
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: azure;
+}
