@@ -18,10 +18,11 @@ body{
     color: darkgray;
 }
 .six{
-    margin: 0 10px;
+   padding: 5px;
 }
 a:hover{
-    background: #29b378;
+    color: #fff;
+    background: #29b078;
 }
 a{
     text-decoration: none;
@@ -40,8 +41,13 @@ a{
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
 }
+.cfo{
+    float: left;
+    margin: 15px 0;
+}
 .ceo{
     float: left;
+
 }
 .script{
     font-size: 20px;
@@ -137,16 +143,18 @@ a{
 }
 .ceo:hover .hover{
     display: block;
-    transform: translate(0px,0px);
     animation:myfirst 5s;
     -moz-animation:myfirst 5s; /* Firefox */
     -webkit-animation:myfirst 5s; /* Safari and Chrome */
     -o-animation:myfirst 5s; /* Opera */
 }
-@-webkit-keyframes myfirst /* Safari and Chrome */
+@keyframes myfirst
 {
-    from {background:red;}
-    to {background:yellow;}
+    0%   {background:rgba(0, 0, 0, 0.3);left:0; top:0;}
+    25%  {background:rgba(0, 0, 0, 0.3); left:50px; top:0;}
+    50%  {background:rgba(0, 0, 0, 0.3); left:50px; top:50px;}
+    75%  {background:rgba(0, 0, 0, 0.3); left:0; top:50px;}
+    100% {background:rgba(0, 0, 0, 0.3); left:0; top:0;}
 }
 .hover1{
     font-size: 30px;
