@@ -18,11 +18,14 @@ body{
     color: darkgray;
 }
 .six{
+    color: black;
    padding: 5px;
+    text-decoration:none;
 }
 a:hover{
     color: #fff;
     background: #29b078;
+    text-decoration:none;
 }
 a{
     text-decoration: none;
@@ -58,18 +61,22 @@ a{
 .script3{
     color: darkgrey;
     line-height: 40px;
+    margin: 0 10px;
 }
 .list2{
     float: left;
     width: 50%;
     height: 40px;
+    font-size: 14px;
     border-right-style: ridge;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
+
 }
 .list3{
     width: 50%;
     height: 40px;
+    font-size: 14px;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
     float: right;
@@ -77,6 +84,7 @@ a{
 .script4{
     line-height: 40px;
     color: darkgrey;
+    margin: 0 10px;
 }
 .scriptone{
     color: crimson;
@@ -106,6 +114,7 @@ a{
 }
 .script6{
     line-height: 40px;
+    margin: 0 10px;
 }
 .script7{
     float: right;
@@ -163,4 +172,6 @@ a{
 .hover2{
     margin: 0 15px;
 }
-
+.width{
+    width: 14px;
+}
