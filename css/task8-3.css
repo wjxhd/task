@@ -11,8 +11,8 @@ body{
 .one{
     height: 50px;
     width: 100%;
-    border-bottom-style: groove;
     margin: 20px 0;
+    border-bottom-style: groove;
 }
 .direction{
     color: darkgray;
@@ -31,21 +31,17 @@ a{
     height: 50px;
 }
 .develop{
-    border-bottom-style: groove;
     height: 40px;
     margin: 30px 0;
+    border-bottom-style: groove;
 }
 .list{
-    background: #ffffff;
     height: 108px;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
 }
 .ceo{
     float: left;
-    border-style: groove;
-    border-radius: 5px;
-    margin: 0 3%;
 }
 .script{
     font-size: 20px;
@@ -59,12 +55,12 @@ a{
     line-height: 40px;
 }
 .list2{
+    float: left;
     width: 50%;
-    border-right-style: ridge;
     height: 40px;
+    border-right-style: ridge;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
-    float: left;
 }
 .list3{
     width: 50%;
@@ -74,8 +70,8 @@ a{
     float: right;
 }
 .script4{
-    color: darkgrey;
     line-height: 40px;
+    color: darkgrey;
 }
 .scriptone{
     color: crimson;
@@ -84,9 +80,9 @@ a{
     color: black;
 }
 .list4{
+    float: left;
     height: 120px;
     width: 40%;
-    float: left;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
     border-right-style: ridge;
@@ -97,11 +93,11 @@ a{
     color: darkgrey;
 }
 .list5{
+    float: right;
     width: 60%;
     height: 40px;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
-    float: right;
 }
 .script6{
     line-height: 40px;
@@ -110,11 +106,11 @@ a{
     float: right;
 }
 .list6{
-    height: 40px;
     float: left;
+    height: 40px;
+    width: 100%;
     border-bottom-style: ridge;
     border-bottom-color: currentColor;
-    width: 100%;
     font-weight: bold;
 }
 .script8{
@@ -140,17 +136,24 @@ a{
     display: none;
 }
 .ceo:hover .hover{
-display: block;
+    display: block;
     transform: translate(0px,0px);
+    animation:myfirst 5s;
+    -moz-animation:myfirst 5s; /* Firefox */
+    -webkit-animation:myfirst 5s; /* Safari and Chrome */
+    -o-animation:myfirst 5s; /* Opera */
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {background:red;}
+    to {background:yellow;}
 }
 .hover1{
     font-size: 30px;
-    text-align: center;
     margin: 50px 0;
+    text-align: center;
 }
 .hover2{
     margin: 0 15px;
 }
-.col-lg-4{
-    width: 30%;
-}
+
