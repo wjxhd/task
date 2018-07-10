@@ -46,9 +46,6 @@ body{
     display: inline-block;
     flex-shrink: 0;
 }
-.container{
-    width: 100%;
-}
 .writing{
     color: #dddddd;
 }
