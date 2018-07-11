@@ -124,12 +124,7 @@ a:hover{
     color: azure;
 }
 @media screen and (max-width:760px){
-    li:hover a{
+    li:hover{
         border-bottom: 5px solid #fff;
     }
-}
-.background a:hover {
-    color: #fff;
-    padding-bottom: 26px;
-    border-bottom: 5px solid #fff;
 }
