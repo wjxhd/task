@@ -123,9 +123,7 @@ a:hover{
     color: azure;
 }
 @media screen and (max-width:760px){
-    .navbar-right{
-        width: 100%;
-        text-align: center;
+    .li:hover{
         border-bottom: 5px solid #fff;
     }
 }
