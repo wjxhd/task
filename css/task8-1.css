@@ -83,6 +83,8 @@ body{
     text-align: center;
     line-height: 200px;
     background: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
 }
 .case.lnc{
     display: flex;
@@ -127,7 +129,6 @@ body{
         width: 10%;
     }
 }
-
 a{
     text-decoration: none;
     color: aliceblue;
@@ -141,10 +142,9 @@ a:hover{
 .link:hover{
     color: #29b378;
 }
-.print:hover{
-    border-style: groove;
-}
 .twotwo{
     width: 200px;
-
+}
+.print:hover{
+    border-color: black;
 }
