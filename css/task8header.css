@@ -58,6 +58,7 @@ header {
     color: #fff;
     text-align: center;
     list-style-type: none;
+    height: 80px;
 }
 #navbar-menu a:link {
     text-decoration: none;
@@ -70,7 +71,7 @@ header {
 .background a:hover {
     color: #fff;
     padding-bottom: 26px;
-    border-bottom: 5px solid #fff;
+
 }
 #navbar-menu .navbar-right a {
     margin-left: 2rem;
@@ -123,7 +124,12 @@ a:hover{
     color: azure;
 }
 @media screen and (max-width:760px){
-    .li:hover{
+    li:hover a{
         border-bottom: 5px solid #fff;
     }
+}
+.background a:hover {
+    color: #fff;
+    padding-bottom: 26px;
+    border-bottom: 5px solid #fff;
 }

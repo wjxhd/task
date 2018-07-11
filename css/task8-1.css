@@ -34,6 +34,7 @@ body{
 .whole{
     font-size: 30px;
     text-align: center;
+    margin: 20px 0;
 }
 .eight{
     width: 80px;
@@ -126,6 +127,7 @@ body{
         width: 10%;
     }
 }
+
 a{
     text-decoration: none;
     color: aliceblue;
