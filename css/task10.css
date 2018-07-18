@@ -373,7 +373,9 @@ select {
     /*在选择框的最右侧中间显示小箭头图片*/
     background: url("../img/task10-7.png") no-repeat scroll right center transparent;
     /*为下拉小箭头留出一点位置，避免被文字覆盖*/
-    padding-right: 14px;
+    padding-right: 30px;
+    -webkit-appearance: none;
+    line-height: 25px;
 }
 /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
 select::-ms-expand {
