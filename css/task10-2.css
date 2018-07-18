@@ -2,22 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
-main{
-    height: 350px;
-}
-header{
+.one{
     background: #29b078;
-    text-align: center;
-    font-size: 30px;
-    height: 80px;
-    line-height: 80px;
-    color: #ffffff;
+    height: 50px;
 }
-footer{
-    background: #29b078;
-    text-align: center;
-    font-size: 30px;
+.two{
+    background: yellow;
+    height: 30px;
+}
+.three{
+    background: #00CED1;
     height: 80px;
-    line-height: 80px;
-    color: #ffffff;
 }

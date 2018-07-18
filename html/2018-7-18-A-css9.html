@@ -72,56 +72,74 @@
             <h3>2.知识剖析</h3>
         </section>
         <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
-            <p>浮动到底是什么？ 浮动核心就一句话：浮动元素会脱离文档流并向左/向右浮动，直到碰到父元素或者另一个浮动元素。
+            <p>栅格系统用于通过一系列的行（row）与列（column）的组合来创建页面布局，
+                你的内容就可以放入这些创建好的布局中。下面就介绍一下 Bootstrap 栅格系统的工作原理：
+            </p>
 
-                浮动的属性值有三个：float：none；float：left；float：right；
+            <section>
+                “行（row）”必须包含在.container（固定宽度）或.container-fluid（100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                通过“行（row）”在水平方向创建一组“列（column）”。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                内容应当放置于“列（column）”内，并且，只有“列（column）”可以作为行（row）”的直接子元素。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                类似.row和.col-xs-4这种预定义的类，可以用来快速创建栅格布局。Bootstrap 源码中定义的 mixin 也可以用来创建语义化的布局。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                通过为“列（column）”设置padding属性，从而创建列与列之间的间隔（gutter）。通过为.row元素设置负值margin从而抵消掉为.container元素设置的padding，也就间接为“行（row）”所包含的“列（column）”抵消掉了padding。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                负值的 margin就是下面的示例为什么是向外突出的原因。在栅格列中的内容排成一行。
+            </section>
+            <section>
+                栅格系统中的列是通过指定1到12的值来表示其跨越的范围。例如，三个等宽的列可以使用三个.col-xs-4来创建。
+            </section>
+            <section style="text-align: left; font-size: 30px">
+                如果一“行（row）”中包含了的“列（column）”大于 12，多余的“列（column）”所在的元素将被作为一个整体另起一行排列。
+            </section>
+            <section>
+                栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何.col-md-*栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何.col-lg-*不存在， 也影响大屏幕设备。
 
-                浮动不是任意的，其还是在父元素的范围之中，不能脱离于父元素的内容区域。 </p>
-
+            </section><section>
+            bootstarp的优缺点
+            优点，自适应布局，友好的移动端布局！
+            缺点，不兼容IE浏览器，修改代码！修改bootstrap样式，很困难！
+        </section>
         </section>
 
-        <section style="...">
-            <p>
 
-                在非IE浏览器（如Firefox、Chrome）下，当容器的高度为auto，且容器的内容中有浮动（float为
-                left或right）的元素，在这种情况下，容器的高度不能自动伸长以适应内容的高度，使得内容溢出
-                到容器外面而影响（甚至破坏）布局的现象。这个现象叫浮动溢出，为了防止这个现象的出现而进
-                行的CSS处理，就叫CSS清除浮动。</p>
-        </section>
+
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>3.常见问题</h3></section>
         </section>
         <section>
-            <p>浮动会导致父元素高度坍塌，因为浮动脱离文档流，浮动以后不占文档流的位置，撑开的父元素高度会坍塌。</p>
+
+            <p>如何使用bootstrap栅格系统？</p>
+
+            <p>container与container-fluid有什么区别</p>
+            <p>col-xs-1 必须放在.row之中吗 .row必须放在.container之中吗?</p>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>4 解决方案</h3></section>
             <section style="...">
-                <p>父级div给出固定的高度。手动定义height，这样就解决了父级元素获取不到高度的问题。
-
-                    优点：代码量少，简单容易掌握。
-
-                    缺点：只适合高度固定的布局，如果高度和父级div不同会出现问题。</p>
-
-                <section style="...">
-
-                    <p>添加一个新的标签，如div，或者br，并且设置标签的属性clear：both；清除浮动，让父级能自动获得高度。
-
-                        优点：代码少，浏览器支持，不会各种问题。
-
-                        缺点：会有很多空的div或者br。
-                    </p>
+                <section>
+                    网格系统用来布局，其实就是列的组合。Bootstrap框架的网格系统中有四种基本的用法。由于Bootstrap框架在不同屏幕尺寸使用了不同的网格样式，
+                    在这一节中所涉及到的示例，我们都以中屏为例进行介绍，其他屏幕的使用也类似这一种。
                 </section>
-
-                <section style="...">
-                    <p>父级div跟着浮动，所有代码一起浮动就会形成一个整体，
-
-                        缺点：会产生新的问题，不建议使用。</p>
-
+                <section>
+                    <p> container是文本居中</p>
+                    <p>container-fluid占整行</p>
                 </section>
-
-
+                <section>
+                    行（row）”必须包含在 .container （固定宽度）或 .container-fluid （100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）。
+                </section>
             </section>
+
+
+        </section>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>5.编码实战</h3>

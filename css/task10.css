@@ -180,11 +180,14 @@ body{
 }
 .line{
     text-align: center;
-    line-height: 80px;
     padding: 0;
     margin: 0;
     border: 1px groove;
     border-width: 0 1px 0 1px;
+    display: flex;
+    align-items: Center;
+    height: 80px;
+    background: #ffffff;
 }
 .input{
     height: 20px;
@@ -196,14 +199,15 @@ body{
 }
 .center{
     text-align: center;
-    margin-top: 140px;
-    line-height: 30px;
+    border: 1px groove;
+    border-width: 0 1px 1px 1px;
 }
 .text{
     padding: 5px 30px;
     border: 0;
     color: #ffffff;
     background: #cd484c;
+    margin: 50px 0;
 }
 .four{
     display: flex;
@@ -340,6 +344,7 @@ body{
 @media only screen and (max-width: 1014px){
     .col-md-2{
   width: 100%;
+        margin: 15px 0;
     }
 }
 @media only screen and (max-width: 900px){
@@ -351,15 +356,14 @@ body{
 .line6{
     border: 1px groove;
     border-width: 1px;
-    height: 300px;
     text-align: center;
     line-height: 80px;
     padding: 0;
     margin: 0;
 }
 @media only screen and (max-width: 1014px){
-    .line6{
-        height: 600px;
+    .line{
+        display: block;
     }
 }
 @media only screen and (max-width: 1014px){
@@ -380,4 +384,27 @@ select {
 /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
 select::-ms-expand {
     display: none;
+}
+.span3{
+    position: relative;
+    margin: 0 20px;
+}
+.span3::before{
+    position: absolute;
+    left: -20px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #399bfd;
+    border-radius: 50%;
+    content: "";
+    box-sizing: border-box;
+}
+input:checked+label::before{
+    background-color: white;
+    border: 5px solid #399bfd;
+}
+input[type="radio"]{
+
+    display: none;
+
 }
