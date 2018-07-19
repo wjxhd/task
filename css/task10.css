@@ -186,10 +186,9 @@ body{
     border-width: 0 1px 0 1px;
     display: flex;
     align-items: Center;
-    height: 80px;
     background: #ffffff;
 }
-.input{
+.input1{
     height: 20px;
     width: 40px;
 }
@@ -344,7 +343,7 @@ body{
 @media only screen and (max-width: 1014px){
     .col-md-2{
   width: 100%;
-        margin: 15px 0;
+        margin: 20px 0;
     }
 }
 @media only screen and (max-width: 900px){
@@ -385,26 +384,46 @@ select {
 select::-ms-expand {
     display: none;
 }
-.span3{
-    position: relative;
-    margin: 0 20px;
+
+
+label{
+    /*display: block;*/
+    margin-bottom: 10px;
 }
-.span3::before{
+input[type="radio"] {
+    position: absolute; top: -9999px;
+}
+i{
+    display: inline-block;
+    width: 17px; height: 17px;
+    margin-right: 10px;
+    background: url(../img/task10-9.png) no-repeat;
+    vertical-align: middle;
+}
+input:checked+i{
+    background: url(../img/task10-8.png) no-repeat;
+}
+
+
+
+select{
     position: absolute;
-    left: -20px;
-    width: 16px;
-    height: 16px;
-    border: 1px solid #399bfd;
-    border-radius: 50%;
-    content: "";
-    box-sizing: border-box;
+    left: 2rem;
 }
-input:checked+label::before{
-    background-color: white;
-    border: 5px solid #399bfd;
+@media only screen and (max-width: 1014px){
+    select {
+        position: initial;
+        left: 2rem;
+    }
 }
-input[type="radio"]{
 
-    display: none;
-
+@media only screen and (min-width: 1014px) {
+    .col-md-2 {
+        width: 16.66666667%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 50px 0;
+    }
 }
