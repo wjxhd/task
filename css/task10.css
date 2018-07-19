@@ -384,10 +384,7 @@ select {
 select::-ms-expand {
     display: none;
 }
-select{
-    position: absolute;
-    left: 2rem;
-}
+
 @media only screen and (max-width: 1014px){
     select {
         position: initial;
