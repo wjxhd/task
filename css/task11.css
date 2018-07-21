@@ -10,11 +10,10 @@ body {
   background: #00CED1; }
 
 .logo {
-  position: absolute;
-  margin: 0;
+  float: left;
+  margin: 0 0 0 20px;
   color: aliceblue;
-  line-height: 45px;
-  left: 20px; }
+  line-height: 45px; }
 
 .lty {
   position: absolute;

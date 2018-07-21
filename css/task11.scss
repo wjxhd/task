@@ -5,17 +5,15 @@ body{
   width: 100%;
   margin: 0 auto;
 }
-
 .square1{
   height: 45px;
   background: #00CED1;
 }
 .logo {
-  position: absolute;
-  margin: 0;
+  float: left;
+  margin: 0 0 0 20px;
   color: aliceblue;
   line-height: 45px;
-  left: 20px;
 }
 .lty{
   position: absolute;
