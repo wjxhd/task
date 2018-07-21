@@ -1,0 +1,112 @@
+body{
+  background: #f3f4f6;
+  max-width: 1000px;
+  min-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.square1{
+  height: 45px;
+  background: #00CED1;
+}
+.logo {
+  position: absolute;
+  margin: 0;
+  color: aliceblue;
+  line-height: 45px;
+  left: 20px;
+}
+.lty{
+  position: absolute;
+  left: calc(50% - 1rem);
+  color: aliceblue;
+  margin: 0;
+  line-height: 45px;
+}
+.qlm{
+  float: right;
+  margin: 0 20px 0 0;
+  color: aliceblue;
+  line-height: 45px;
+}
+.search1 {
+  height: 30px;
+  width: 18px;
+  margin: 5px;
+  border-right-style: inset;
+  padding: 10px;
+}
+.search2{
+  height: 29px;
+  width: 21px;
+  margin: 5px;
+  border-right-style: inset;
+  padding: 10px;
+}
+.square2{
+  height: 45px;
+  background: #00CED1;
+}
+.lty2{
+  left: calc(50% - 1rem);
+  color: aliceblue;
+  position: relative;
+  line-height: 45px;
+}
+.why{
+  float: right;
+  margin: 10px;
+}
+.nice{
+  background: white;
+  margin:1rem 0 ;
+}
+.nice1{
+  border: none;
+  text-align: center;
+}
+.nice2{
+  border: none;
+  outline: medium;
+  vertical-align: top;
+  padding: 22px 0 22px 0;
+  width: 80%;
+}
+.qmz{
+  color: #00CED1;
+  text-decoration: none;
+}
+.hyphen1{
+  height: 1px;
+  width: 20%;
+  background: #999999;
+}
+main{
+  margin: 0 0 20% 0;
+}
+.hyphen2{
+  height: 1px;
+  width: 20%;
+  background: #999999;
+}
+.span1{
+  color: #999999;
+  margin: 0 10px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two2{
+  width: 50px;
+  height: 50px;
+}
+.two{
+  margin: 20px 50px;
+  text-align: center;
+}
+.one{
+  text-align: center;
+}
