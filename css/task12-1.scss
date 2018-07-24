@@ -3,8 +3,11 @@ $width:18px;
 $height:18px;
 $color: #999999;
 body {
-  margin: 0;
-  font-size: initial; }
+  font-size: initial;
+  max-width: 750px;
+  min-width: 320px;
+ margin: 0 auto;
+}
 
 .top1 {
   border-radius: 0.15rem;
@@ -83,6 +86,7 @@ select{
   top: 45%;
   //给自定义的图标实现点击下来功能
   pointer-events: none;
+  float: right;
 }
 .left1{
   height: $height;
@@ -137,37 +141,35 @@ select{
   height: 30px;
 }
 .aniu5{
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   background: #f3f4f6;
-  padding: 10px 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 .aniu1{
   height: 50px;
   width: 50px;
-  position: absolute;
   left: calc(50% - 0.5rem);
   background: darkturquoise;
   border-radius: 25px;
 }
 .tp1{
-  height: 31px;
+  height: 30px;
   width: 30px;
-  position: absolute;
-  left: calc(50% - 12.5px);
-  background: darkturquoise;
-  top: 5px;
+  border-radius: 25px;
+  margin: 0 20%;
 }
 .youyou2{
   width: 35px;
-  float: right;
   left: 280px;
   color: #9E9E9E;
   top: 3px;
   text-align: center;
   font-size: 13px;
-  margin:0 20% 0 0;
 }
 .aniu3{
   width: 30px;
@@ -176,9 +178,12 @@ select{
 .youyou{
   width: 35px;
   height: 30px;
-  position: absolute;
   color: #00BCD4;
-  font-size: 13px;
   text-align: center;
-  margin: 0 0 0 20%;
+  font-size: 13px;
+}
+@media only screen and (max-width: 401px) {
+  select {
+    text-align-last: initial;
+  }
 }
