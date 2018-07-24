@@ -61,7 +61,7 @@ select {
   line-height: 40px;
   -webkit-appearance: none;
   -moz-appearance: none;
-  padding-left: 60px; }
+  text-align-last: center; }
 
 .box2:after {
   content: "";

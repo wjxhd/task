@@ -70,8 +70,7 @@ select{
   //隐藏select的下拉图标
   -webkit-appearance: none;
   -moz-appearance: none;
-  //通过padding-left的值让文字居中
-  padding-left: 60px;
+  text-align-last: center;
 }
 .box2:after{
   content: "";
