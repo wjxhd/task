@@ -1,0 +1,131 @@
+$color: white;
+$height:40px;
+
+$position: absolute;
+
+body{
+  margin: 0;
+}
+.header{
+  height: 50px;
+  background: #00CED1;
+}
+.sjx{
+  color: $color;
+  left: calc(50% - 2rem);
+  position: $position;
+  line-height: 50px;
+}
+.fhtp{
+  height: 13px;
+  width: 17px;
+  margin: 18px;
+  position: $position;
+}
+.pyz{
+  height: 165px;
+  width: 100%;
+  position: $position;
+
+}
+.xq{
+  height: 80px;
+  width: 70px;
+  position:relative;
+  border-radius: 100%;
+  top: 55px;
+  left: 30px;
+}
+.xlb{
+  height: 20px;
+  width: 15px;
+  position: $position;
+  top: 150px;
+  left: 120px;
+}
+.wz1{
+  position:$position;
+  color: $color;
+  top: 100px;
+  left: 120px;
+}
+.wz2{
+  position: absolute;
+  color: $color;
+  top: 133px;
+  left: 145px;
+}
+.lk{
+  margin: 100px 0 0 10px;
+  color: #00CED1;
+}
+.ysd{
+  position: $position;
+  margin: -20px 0 0 20px;
+}
+.xx1{
+  margin:  0 5px -5px 15px;
+}
+.xx2{
+  margin:  0 5px -5px 15px;
+}
+.xx3{
+  border-right-style: groove;
+  line-height: 20px;
+  color: #9E9E9E;
+  margin: 0 0 0 20px;
+  position: absolute;
+  padding: 0 10px 0 0;
+}
+.xx4{
+  margin: 0 30px 0 115px;
+}
+.hx1 {
+  margin: 18px;
+}
+.xx8{
+  margin: 0 0 0 115px;
+  color: #F44336;
+}
+.xx9{
+  border-right-style: groove;
+  color: #9E9E9E;
+  margin-left: 20px;
+  padding: 0 10px 0 0;
+  position: absolute;
+  top: 0;
+  bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+.tb1{
+  height: $height;
+  width: 45%;
+  margin: 4px;
+  color: #00BCD4;
+  border-radius: 5px;
+  background: azure;
+  border-color: darkturquoise;
+}
+.kanwo{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
+.tb2{
+  height: $height;
+  width: 45%;
+  margin: 4px;
+  float: right;
+  background: #5fc0cd;
+  color: $color;
+  border-radius: 5px;
+}
+.rbyx{
+  position: relative;
+  padding-bottom: 18px;
+}
+.hx2{
+  margin: 0 18px 100px 18px;
+}
+$height:40px;
