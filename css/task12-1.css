@@ -125,8 +125,7 @@ select {
   color: #999999; }
 
 .aniu {
-  width: 30px;
-  height: 30px; }
+  width: 30px; }
 
 .aniu5 {
   position: sticky;
@@ -136,7 +135,7 @@ select {
   height: 50px;
   display: flex;
   justify-content: center;
-  align-items: baseline; }
+  align-items: center; }
 
 .aniu1 {
   height: 50px;
@@ -146,7 +145,6 @@ select {
   border-radius: 25px; }
 
 .tp1 {
-  height: 30px;
   width: 30px;
   border-radius: 25px;
   margin: 0 20%; }
@@ -165,7 +163,6 @@ select {
 
 .youyou {
   width: 35px;
-  height: 30px;
   color: #00BCD4;
   text-align: center;
   font-size: 13px; }
