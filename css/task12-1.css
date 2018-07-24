@@ -73,8 +73,7 @@ select {
   position: absolute;
   right: 20px;
   top: 45%;
-  pointer-events: none;
-  float: right; }
+  pointer-events: none; }
 
 .left1 {
   height: 18px;
@@ -168,7 +167,7 @@ select {
   font-size: 13px; }
 
 @media only screen and (max-width: 401px) {
-  select {
-    text-align-last: initial; } }
+  .box2:after {
+    right: 1px; } }
 
 /*# sourceMappingURL=task12-1.css.map */

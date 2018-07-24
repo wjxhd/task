@@ -86,7 +86,6 @@ select{
   top: 45%;
   //给自定义的图标实现点击下来功能
   pointer-events: none;
-  float: right;
 }
 .left1{
   height: $height;
@@ -180,7 +179,7 @@ select{
   font-size: 13px;
 }
 @media only screen and (max-width: 401px) {
-  select {
-    text-align-last: initial;
+  .box2:after {
+    right: 1px;
   }
 }
