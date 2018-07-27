@@ -1,184 +1,51 @@
 body{
     margin: 0;
-    background: #fafafa;
 }
-.picture{
-    color: #ffffff;
-    font-size: 15px;
-}
-.script1{
-    float: right;
+footer{
+    background: #29b078;
+    height: 150px;
+    font-size: 60px;
     color: #FFFFFF;
-    border: 1px solid #267bd8;
-    border-width: 0 1px;
-}
-.script2{
-    float: right;
-    color: #FFFFFF;
-    border: 1px solid #267bd8;
-    border-width: 0 1px;
-}
-.background{
-    background: #267bd8;
-}
-.script1:hover{
-    border: 1px solid #fff;
-    border-width: 0 1px;
-}
-.script2:hover{
-    border: 1px solid #fff;
-    border-width: 0 1px;
-}
-.top-nav-box .navbar-default
-{
-    margin: 0;
-    border: 0;
-    background: #fafafa;
-}
-@media screen and (min-width: 768px)
-{
-    .top-nav-box .navbar-nav
-    {
-        float: right;
-    }
-}
-.top-nav-box .navbar-default .navbar-nav > li
-{
-    padding: 30px;
-}
-.top-nav-box .navbar-default .navbar-nav > li:last-child
-{
-    padding-right: 0;
-}
-@media screen and (max-width: 991px)
-{
-    .top-nav-box .navbar-default .navbar-nav > li
-    {
-        padding: 5px 30px;
-    }
-    .top-nav-box .navbar-default .navbar-nav > li:last-child
-    {
-        padding-right: 30px;
-    }
-}
-
-.top-nav-box .navbar-default .navbar-nav > li > a
-{
-    font-size: 1.6rem;
-    padding: 10px;
-    color: #333;
-    background: #fff;
-}
-@media screen and (max-width: 991px)
-{
-    .top-nav-box .navbar-default .navbar-nav > li > a
-    {
-        text-align: center;
-    }
-}
-.top-nav-box .navbar-nav > li > a:hover
-{
-    color: #fff;
-    background: #1d7ad9;
-}
-
-
-
-.top-nav-box .navbar-collapse
-{
-    padding: 0;
-
-    border: 0;
-}
-
-.top-nav-box .navbar-default .navbar-nav > .active > a
-{
-    border-bottom: 4px solid #fff;
-    background-color: #29b078;
-}
-.top-nav-box .navbar-default .navbar-nav > .active > a:hover,
-.top-nav-box .navbar-default .navbar-nav > .active > a:focus
-{
-    color: #fff;
-}
-
-.top-nav-box .navbar-toggle .icon-bar
-{
-    width: 20px;
-    height: 4px;
-}
-
-.top-nav-box .navbar-toggle .icon-bar + .icon-bar
-{
-    margin-top: 4px;
-}
-
-.top-nav-box .navbar-default .navbar-toggle
-{
-    margin: 11px 15px 11px 0;
-
-    border: 0;
-    background: #f9f9f9;
-}
-
-.top-nav-box .navbar-default .navbar-toggle:hover
-{
-    background: #fff;
-}
-.navbar-nav{
-    margin: 7.5px 1px;
-}
-@media screen and (max-width: 1000px)
-{
-    .col-sm-6 {
-        float: right;
-        width: 20%;
-    }
-}
-.span1{
-    width: 2px;
-    height: 15px;
-    float: left;
-    background: #03A9F4;
-}
-.span2{
-    margin: 0 10px;
-    font-size: 15px;
-}
-.left1{
-    background: #f2f2f2;
-    border-style: groove;
-}
-.left{
-    height: 10px;
-}
-.color{
-    margin: 0 10px;
-    color: #267bd8;
-}
-.rudle{
-    height: 15px;
-    width: 15px;
-    background: #FFFFFF;
-    line-height: 40px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #9E9E9E;
-    display: inline-flex;
-}
-.span3{
-    margin: 0 10px;
-}
-.right1{
-    line-height: 40px;
-    float: right;
-    margin: 0 28px 0 0;
-}
-.rudle:hover{
-    background: #267bd8;
-}
-.line{
     text-align: center;
-    line-height: 40px;
+    line-height: 150px;
+}
+header{
+    background: #29b078;
+    height: 150px;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 150px;
+}
+main{
+   color: black;
+    height: 300px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 300px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* 鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
