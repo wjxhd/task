@@ -1,51 +1,41 @@
 body{
     margin: 0;
 }
-footer{
+/*.square1{
     background: #29b078;
-    height: 150px;
-    font-size: 60px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 150px;
+    height: 10rem;
+    width: 12rem;
+    margin: 0 auto;
 }
-header{
-    background: #29b078;
-    height: 150px;
-    font-size: 60px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 150px;
+/*@media screen and (max-width: 800px) {
+    .square1 {
+        background:lightblue;
+        float: right;
+    }
 }
-main{
-   color: black;
-    height: 300px;
-    font-size: 60px;
-    text-align: center;
-    line-height: 300px;
+/*@media screen  and (min-width: 890px){
+    .square1{
+        width: 15px;
+        height: 40rem;
+        float: right;
+        margin: 5px;
+    }
+}*/
+.square1{
+    width: 20rem;
+    height: 30px;
+    background: #39b078;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+@media screen  and (max-width:500px){
+    .square1{
+        background: yellow;
+        height: 60rem;
+    }
 }
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-/* 鼠标移动到选项上修改背景颜色 */
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+@media screen and (min-width: 600px){
+    .square1{
+        background: black;
+        width: 10rem;
+        float: right;
+    }
 }

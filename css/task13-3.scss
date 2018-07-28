@@ -1,6 +1,10 @@
+$max-width: 750px;
+$min-width: 320px;
+$color:#ffffff;
+
 body{
-  max-width: 750px;
-  min-width: 320px;
+  max-width: $max-width;
+  min-width: $min-width;
   margin: 0 auto;
 }
 .go{
@@ -10,7 +14,7 @@ body{
   text-align: center;
   line-height: 60px;
   border-bottom-style: solid;
-  color:azure;
+  color:$color;
   position: relative;
   border-bottom-width: 0.1px;
 }
@@ -33,7 +37,7 @@ body{
   margin: 0 10px 0 0;
 }
 .script1{
-  color: aliceblue;
+  color: $color;
 }
 .centre{
   width: 100%;
@@ -54,7 +58,7 @@ body{
 }
 .sequence{
   font-size: 12px;
-  color: aliceblue;
+  color: $color;
   float: left;
   margin: 0 0 0 4rem;
 }
@@ -64,7 +68,7 @@ body{
 }
 .line{
   margin: 0;
-  color: aliceblue;
+  color: $color;
 }
 .include{
   margin: 30px 0 0 40px;
@@ -103,7 +107,7 @@ body{
   font-size: 18px;
   margin: 0 10% 0 0;
   background: #f37072;
-  color: aliceblue;
+  color: $color;
   border-radius: 5px;
   border: 1px solid #8b44;
   line-height: 52px;
@@ -114,19 +118,19 @@ body{
   font-size: 18px;
   margin: 0 0 0 10%;
   background: #f8b445;
-  color: aliceblue;
+  color: $color;
   border-radius: 5px;
   border: 1px solid #8b44;
   line-height: 52px;
 }
 .line-x{
-  color: aliceblue;
+  color: $color;
   border: 1px ridge;
   margin: 0 0 5rem 0;
 }
 .ten {
   text-decoration: none;
-  color: aliceblue;
+  color: $color;
 }
 footer{
   height: 60px;
@@ -137,8 +141,8 @@ footer{
   line-height: 60px;
   position: fixed;
   bottom: 0;
-  max-width: 750px;
-  min-width: 320px;
+  max-width: $max-width;
+  min-width: $min-width;
 }
 .button2{
   height: 40px;
@@ -146,7 +150,7 @@ footer{
   font-size: 18px;
   margin: 0 0 0 10%;
   background: #f8b445;
-  color: aliceblue;
+  color: $color;
   border-radius: 5px;
   border: 1px solid #8b44;
   line-height: 40px;
@@ -157,7 +161,7 @@ footer{
   font-size: 18px;
   margin: 0 10% 0 0;
   background: #f37072;
-  color: aliceblue;
+  color: $color;
   border-radius: 5px;
   border: 1px solid #8b44;
   line-height: 40px;
