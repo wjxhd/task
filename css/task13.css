@@ -168,4 +168,7 @@ input {
   position: relative;
   overflow: hidden; }
 
+a {
+  text-decoration: none; }
+
 /*# sourceMappingURL=task13.css.map */

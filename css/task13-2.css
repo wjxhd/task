@@ -83,7 +83,6 @@ body {
   padding-bottom: calc(20% - 0.5rem);
   padding-top: calc(20% - 0.5rem);
   height: 1rem;
-  line-height: 1rem;
   font-size: 1rem;
   text-align: center;
   background-color: #83b09a; }
@@ -141,5 +140,8 @@ footer {
   font-size: 20px;
   color: aliceblue;
   width: 80%; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=task13-2.css.map */
