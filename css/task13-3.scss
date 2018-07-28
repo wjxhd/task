@@ -67,7 +67,7 @@ body{
   color: aliceblue;
 }
 .include{
-  margin: 0 0 0 40px;
+  margin: 30px 0 0 40px;
 }
 .script{
   margin: 3px 0 15px 0;
@@ -127,4 +127,38 @@ body{
 .ten {
   text-decoration: none;
   color: aliceblue;
+}
+footer{
+  height: 60px;
+  background: rgba(100,199,243,0.7);
+  width: 100%;
+  text-align: center;
+  border: 1px solid #8b44;
+  line-height: 60px;
+  position: fixed;
+  bottom: 0;
+  max-width: 750px;
+  min-width: 320px;
+}
+.button2{
+  height: 40px;
+  width: 30%;
+  font-size: 18px;
+  margin: 0 0 0 10%;
+  background: #f8b445;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid #8b44;
+  line-height: 40px;
+}
+.button1{
+  height: 40px;
+  width: 30%;
+  font-size: 18px;
+  margin: 0 10% 0 0;
+  background: #f37072;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid #8b44;
+  line-height: 40px;
 }
