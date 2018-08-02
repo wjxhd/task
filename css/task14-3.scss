@@ -1,0 +1,229 @@
+.top-one{
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+  border-bottom-style: groove;
+}
+.six{
+  color: black;
+  padding: 5px;
+  text-decoration:none;
+}
+a:hover{
+  color: #fff;
+  background: #29b078;
+}
+.direction{
+  color: darkgray;
+}
+.develop{
+  height: 40px;
+  margin: 30px 0;
+  border-bottom-style: groove;
+}
+.cfo{
+  float: left;
+  margin: 15px 0;
+}
+.list2{
+  float: left;
+  width: 50%;
+  height: 40px;
+  font-size: 14px;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+}
+.list3{
+  width: 50%;
+  height: 40px;
+  font-size: 14px;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+  float: right;
+}
+
+.list{
+  height: 108px;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+}
+.ceo{
+  float: left;
+
+}
+.script{
+  font-size: 20px;
+  font-weight: bold;
+}
+.script2{
+  display: block;
+}
+.script3 {
+  color: darkgrey;
+  line-height: 40px;
+}
+.script4{
+  line-height: 40px;
+  color: darkgrey;
+  margin: 0 10px;
+}
+.width{
+  width: 14px;
+}
+.cfo:hover .hover{
+  display: block;
+  z-index: 5;
+  animation:myfirst 5s;
+  -moz-animation:myfirst 5s; /* Firefox */
+  -webkit-animation:myfirst 5s; /* Safari and Chrome */
+  -o-animation:myfirst 5s; /* Opera */
+}
+a:hover{
+  color: #fff;
+  background: #29b078;
+}
+.develop{
+  height: 40px;
+  margin: 30px 0;
+  border-bottom-style: groove;
+}
+.list{
+  height: 108px;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+}
+.cfo{
+  float: left;
+  margin: 15px 2%;
+  width: 29%;
+  position:relative;
+}
+.ceo{
+  float: left;
+}
+.script{
+  font-size: 20px;
+  font-weight: bold;
+}
+.script2{
+  display: block;
+}
+.script3{
+  color: darkgrey;
+  line-height: 40px;
+  margin: 0 10px;
+}
+.script4{
+  line-height: 40px;
+  color: darkgrey;
+  margin: 0 10px;
+}
+.scriptone{
+  color: crimson;
+}
+.scripttwo{
+  color: black;
+}
+.list4{
+  float: left;
+  height: 120px;
+  width: 40%;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+  border-right-style: ridge;
+}
+.script5{
+  line-height: 120px;
+  text-align: center;
+  color: darkgrey;
+}
+.list5{
+  float: right;
+  width: 100%;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+}
+.script6{
+  line-height: 39px;
+  margin: 0 10px;
+}
+.script7{
+  float: right;
+}
+.list6{
+  float: left;
+  height: 40px;
+  width: 100%;
+  border-bottom-style: ridge;
+  border-bottom-color: currentColor;
+  font-weight: bold;
+}
+.script8{
+  line-height: 40px;
+}
+.script9{
+  color: crimson;
+}
+.list7{
+  float: left;
+  height: 40px;
+  width: 100%;
+  color: darkgray;
+}
+.hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.flex-one{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.flex-two{
+  width: 100%;
+}
+.hover2 {
+  margin: 0 15px;
+}
+.hover1 {
+  font-size: 30px;
+  margin: 50px 0;
+  text-align: center;
+}
+.position-one{
+  margin: 15px 2%;
+  width: 29%;
+}
+.cfo:hover .hover{
+  display: block;
+  z-index: 5;
+  animation:myfirst 5s;
+  -moz-animation:myfirst 5s; /* Firefox */
+  -webkit-animation:myfirst 5s; /* Safari and Chrome */
+  -o-animation:myfirst 5s; /* Opera */
+}
+@keyframes myfirst
+{
+  0%   {background:rgba(0, 0, 0, 0.3);left:0; top:0;}
+  25%  {background:rgba(0, 0, 0, 0.3); left:50px; top:0;}
+  50%  {background:rgba(0, 0, 0, 0.3); left:50px; top:50px;}
+  75%  {background:rgba(0, 0, 0, 0.3); left:0; top:50px;}
+  100% {background:rgba(0, 0, 0, 0.3); left:0; top:0;}
+}
+.dump{
+  overflow: hidden;
+}
+@media screen and (max-width: 1000px){
+  .cfo{
+    margin: 15px 2%;
+    width: 95%;
+    text-align: center;
+  }
+}
