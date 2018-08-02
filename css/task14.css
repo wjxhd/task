@@ -15,7 +15,7 @@ body {
 .top {
   padding-left: 30px;
   padding-right: 30px;
-  margin: 5px 0; }
+  overflow: hidden; }
 
 .background {
   background: #29b078;
@@ -51,7 +51,7 @@ body {
   width: 94%; }
 
 .left-1 {
-  margin: 50px 8%; }
+  margin: 80px 8% 35px 8%; }
 
 .background-1 {
   background: #29b078;
