@@ -101,7 +101,8 @@ input {
 
 .nav-pic {
   padding-top: 20px;
-  border-bottom: 5px solid #29b078; }
+  border-bottom: 5px solid #29b078;
+  color: #ffff; }
 
 .nav-pic:hover {
   border-color: #ffffff; }
