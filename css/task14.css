@@ -81,7 +81,6 @@ label {
   display: inline-block;
   height: 1.5em;
   width: 1.5em;
-  line-height: 1.5em;
   cursor: pointer;
   border-radius: 70px;
   font-size: 2em;
@@ -97,7 +96,8 @@ input {
   width: 100%;
   text-align: center;
   font-size: 25px;
-  display: none; }
+  display: none;
+  padding-bottom: 15px; }
 
 .nav-pic {
   padding-top: 20px;
