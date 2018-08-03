@@ -7,7 +7,8 @@
 .six {
   color: black;
   padding: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block; }
 
 a:hover {
   color: #fff;
@@ -37,25 +38,6 @@ a:hover {
   height: 108px;
   border-bottom-style: ridge;
   border-bottom-color: currentColor; }
-
-.ceo {
-  float: left; }
-
-.script {
-  font-size: 20px;
-  font-weight: bold; }
-
-.script2 {
-  display: block; }
-
-.script3 {
-  color: darkgrey;
-  line-height: 40px; }
-
-.script4 {
-  line-height: 40px;
-  color: darkgrey;
-  margin: 0 10px; }
 
 .width {
   width: 14px; }
