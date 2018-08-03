@@ -116,4 +116,10 @@ input {
 .height {
   height: 80px; }
 
+.contact {
+  display: flex; }
+
+.maginone {
+  margin-bottom: 20px; }
+
 /*# sourceMappingURL=task14.css.map */
