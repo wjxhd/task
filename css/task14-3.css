@@ -233,5 +233,12 @@ a:hover {
     margin: 15px 2%;
     width: 95%;
     text-align: center; } }
+.display-one {
+  width: 46%;
+  display: contents; }
+
+.dump-1 {
+  overflow: hidden;
+  padding-bottom: 50px; }
 
 /*# sourceMappingURL=task14-3.css.map */

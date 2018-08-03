@@ -9,13 +9,13 @@ body{
 .service-tel{
   color: #29b078;
 }
-.contact{
-  float: right;
-}
 .top{
   padding-left: 30px;
   padding-right: 30px;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0;
 }
 .background{
   background: #29b078;
