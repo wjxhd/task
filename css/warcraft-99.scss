@@ -1,0 +1,65 @@
+html body {
+  margin: 0;
+  background: #d2ebe9;
+}
+/*导航栏部分*/
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+#navbar-menu .navbar-right a {
+  margin-left: 2rem;
+  line-height: 80px;
+  text-decoration: none;
+}
+#navbar-menu li {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  height: 80px;
+}
+.width-col {
+  color: #fff;
+  background: #ccbecf;
+}
+.po:hover {
+  color:#00bcd48a;
+}
+/*轮播图部分*/
+.width-col .background {
+  margin-bottom: 0;
+  color: #fff;
+  border: none;
+  background: #ccbecf;
+}
+footer{
+  padding: 0 25%;
+  background-color: #36807f;
+  color: #d6d6d6;
+}
+.left-one{
+  margin-bottom: 2px;
+  padding: 6px 14px;
+  outline: none;
+  color: #fff;
+  background-color: #f18e93;
+  border: 0;
+  border-radius: 5px;
+}
+.right-one{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.footer-right{
+  text-align: center;
+  width: 131px;
+}
+.margin-one{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

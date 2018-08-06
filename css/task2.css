@@ -1,41 +1,7 @@
 body{
     margin: 0;
 }
-/*.square1{
-    background: #29b078;
-    height: 10rem;
-    width: 12rem;
-    margin: 0 auto;
-}
-/*@media screen and (max-width: 800px) {
-    .square1 {
-        background:lightblue;
-        float: right;
-    }
-}
-/*@media screen  and (min-width: 890px){
-    .square1{
-        width: 15px;
-        height: 40rem;
-        float: right;
-        margin: 5px;
-    }
-}*/
-.square1{
-    width: 20rem;
-    height: 30px;
-    background: #39b078;
-}
-@media screen  and (max-width:500px){
-    .square1{
-        background: yellow;
-        height: 60rem;
-    }
-}
-@media screen and (min-width: 600px){
-    .square1{
-        background: black;
-        width: 10rem;
-        float: right;
-    }
+table{
+    border-spacing: 0;
+    border-color: grey;
 }
