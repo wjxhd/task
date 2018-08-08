@@ -1,0 +1,13 @@
+body {
+  width: 700px;
+  margin: 0 auto; }
+
+.dump {
+  width: 190px;
+  height: 190px;
+  float: left;
+  background: #ffa600;
+  margin: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=js-1.css.map */

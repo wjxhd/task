@@ -1,0 +1,387 @@
+@charset "UTF-8";
+html body {
+  margin: 0;
+  background: #d2ebe9; }
+
+/*导航栏部分*/
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%; }
+
+a:hover {
+  color: #00bcd48a !important; }
+
+#navbar-menu .navbar-right a {
+  margin-left: 2rem;
+  line-height: 80px;
+  text-decoration: none; }
+
+#navbar-menu li {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  height: 80px; }
+
+.width-col {
+  color: #fff;
+  background: #ccbecf; }
+
+/*轮播图部分*/
+.width-col .background {
+  margin-bottom: 0;
+  color: #fff;
+  border: none;
+  background: #ccbecf; }
+
+.carousel-control.left {
+  background-image: none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
+
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+
+/*中间的图片和文字*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.small {
+  font-size: 85%;
+  font-weight: bold;
+  color: #00bcd48a; }
+
+.large {
+  font-size: 35px;
+  font-weight: bold; }
+
+.left {
+  float: left; }
+
+.magin {
+  margin: 30px 0; }
+
+/*第一段主体*/
+.ffff {
+  background: #FFFFFF;
+  border-radius: 15px; }
+
+.why {
+  color: #00BCD4;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 50px; }
+
+.radius {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+  background: #d2ebe9;
+  border-radius: 50%; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px; }
+
+.lineae {
+  width: 32px;
+  height: 2px;
+  background-color: #d2ebe9;
+  margin: 0 auto; }
+
+.green {
+  color: #1f9d92; }
+
+.bold {
+  font-weight: bold; }
+
+.size {
+  font-size: 1.7rem; }
+
+.relative {
+  display: flex;
+  justify-content: center; }
+
+.minus {
+  margin-bottom: -1.5rem;
+  position: relative; }
+
+.only {
+  background: #d2ebe9;
+  padding: 12px 12px 12px 32px;
+  border-radius: 0 0 15px 15px; }
+
+.width {
+  width: 100%;
+  border-radius: 15px 15px 0 0; }
+
+.color {
+  font-size: 18px;
+  color: black;
+  margin: 10px 0; }
+
+.tail {
+  background: #ccbecf;
+  line-height: 60px;
+  border-radius: 0 0 15px 15px; }
+
+.text-bold {
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 2rem; }
+
+.maginleft {
+  margin-left: 2rem; }
+
+.displayflex {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 20px; }
+
+.square {
+  min-width: 11px;
+  height: 11px;
+  background-color: #169e93;
+  margin-right: 1rem;
+  margin-top: 2px; }
+
+.colr {
+  color: #71b9b1; }
+
+.what {
+  color: #000000a6;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px; }
+
+.max {
+  max-width: 15rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto; }
+
+.magintop {
+  font-weight: bold;
+  font-size: 15px; }
+
+.topmagin {
+  margin-top: 5px; }
+
+.backgroundma {
+  background: #ccbecf; }
+
+.colol {
+  color: #266996; }
+
+@media screen and (min-width: 992px) {
+  .courseFixedMinHeight {
+    min-height: 195px; } }
+.course {
+  width: 12rem;
+  margin: 0 auto 1rem auto;
+  color: #fff;
+  text-align: center; }
+
+.pen {
+  max-height: 195px;
+  margin: 0 auto; }
+
+.pading {
+  padding: 10% 66px 0 66px; }
+
+.padingleft {
+  padding: 10% 90px; }
+
+.h {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #71b9b1; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  background: #d2ebe9;
+  overflow-x: hidden; }
+
+p {
+  margin: 0; }
+
+ul {
+  margin: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+header .nav1 {
+  line-height: 84px; }
+
+header a {
+  display: inline-block;
+  height: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #266996 !important; }
+
+header a:hover {
+  color: #169e93 !important; }
+
+header .navbar {
+  margin-bottom: 0; }
+
+header .navbar-nav {
+  margin: 0 -15px; }
+
+header .navbar-header {
+  line-height: 84px;
+  background: #ccbecf; }
+
+header .navbar-toggle {
+  margin-top: 25px; }
+
+header .nav {
+  background-color: #ccbecf;
+  text-align: center; }
+
+footer {
+  font-size: 1.5rem;
+  background-color: #36807f; }
+
+footer .fl {
+  margin: 25px 0; }
+
+footer .fl p {
+  margin: 10px;
+  color: #acbab9; }
+
+footer .fl .bold {
+  color: white;
+  font-weight: bold; }
+
+footer .fl .btn-danger {
+  background: #f18e93;
+  border: none;
+  outline: none; }
+
+footer .fr {
+  margin: 25px 0; }
+
+footer .fr div {
+  display: inline-block; }
+
+footer .fr p {
+  width: 90px;
+  white-space: pre-wrap;
+  color: #acbab9;
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 15px; } }
+/*---右侧固定图标---*/
+.sidebarParent {
+  position: fixed;
+  top: 0;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  height: 100vh; }
+
+.sidebarRight {
+  display: flex;
+  flex-direction: column; }
+
+.sidebarRight .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 8vw;
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 40px;
+  min-height: 40px;
+  margin: 1rem 0;
+  border-radius: 50%;
+  background-color: #169e93;
+  cursor: pointer; }
+
+.sidebarRight .circle_logo {
+  width: 40%; }
+
+.phoneService {
+  position: relative; }
+
+.phoneService .phoneService_msg {
+  position: absolute;
+  left: -180px;
+  width: 168px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 1px #999999; }
+
+.phoneService .phoneService_msg .triangle-right {
+  position: absolute;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: .5rem solid transparent;
+  border-left: 1rem solid #fff;
+  border-bottom: .5rem solid transparent; }
+
+/*侧边栏hover效果*/
+:hover.qqService {
+  text-decoration: none; }
+
+:hover.qqService .qqService_img {
+  display: none; }
+
+:hover.qqService .qqService_text {
+  display: block; }
+
+:hover.phoneService .phoneService_img {
+  display: none; }
+
+:hover.phoneService .phoneService_text {
+  display: block; }
+
+:hover.phoneService .phoneService_msg {
+  display: block;
+  color: #8f949a; }
+
+:hover.toTop .toTop_img {
+  display: none; }
+
+:hover.toTop .toTop_text {
+  display: block; }
+
+@media screen and (max-width: 768px) {
+  .qqService_text span {
+    font-size: 10px; }
+
+  .phoneService_text span {
+    font-size: 10px; }
+
+  .toTop_text span {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=warcraft.css.map */
