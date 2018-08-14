@@ -1,0 +1,46 @@
+
+body{
+  margin: 0;
+}
+.flex{
+  display: flex;
+}
+@mixin mt($var,$var2){
+  margin-top:$var;
+  background: $var2;
+}
+
+@mixin circle($r,$color) {
+  width: $r;
+  height: $r;
+  border-radius: 100%;
+  background: $color;
+}
+
+.box{
+   width: 200px;
+   height: 200px;
+   @include mt(10px,red);
+   //background: #29b078;
+ }
+.box1{
+  width: 200px;
+  height: 200px;
+  @include mt(20px,green);
+  //background: #29b078;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  @include mt(30px,black);
+  //background: #29b078;
+}
+.circle1{
+  @include circle(50px,red)
+}
+.circle2{
+  @include circle(100px,green)
+}
+.circle3{
+  @include circle(150px,black);
+}

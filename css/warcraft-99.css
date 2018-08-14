@@ -51,8 +51,6 @@ footer {
   border-radius: 5px; }
 
 .right-one {
-  display: flex;
-  flex-direction: row-reverse;
   margin-top: 25px;
   margin-bottom: 25px; }
 
@@ -63,5 +61,11 @@ footer {
 .margin-one {
   margin-top: 25px;
   margin-bottom: 25px; }
+
+.footer-left span {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  color: white;
+  line-height: 1px; }
 
 /*# sourceMappingURL=warcraft-99.css.map */
