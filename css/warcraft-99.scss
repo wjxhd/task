@@ -79,3 +79,116 @@ footer{
 header a:hover {
   color: #169e93 !important;
 }
+.text-white {
+  color: #fff;
+}
+.dn {
+  display: none;
+}
+
+.sidebarRight .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 8vw;
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 40px;
+  min-height: 40px;
+  margin: 1rem 0;
+  border-radius: 50%;
+  background-color: #169e93;
+  cursor: pointer;
+}
+.sidebarRight {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarParent {
+  position: fixed;
+  top: 0;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+/*侧边栏hover效果*/
+:hover.qqService {
+  text-decoration: none; }
+:hover.qqService .qqService_img {
+  display: none; }
+:hover.qqService .qqService_text {
+  display: block; }
+
+:hover.phoneService .phoneService_img {
+  display: none; }
+:hover.phoneService .phoneService_text {
+  display: block; }
+:hover.phoneService .phoneService_msg {
+  display: block;
+  color: #8f949a; }
+
+:hover.toTop .toTop_img {
+  display: none; }
+:hover.toTop .toTop_text {
+  display: block; }
+
+@media screen and (max-width: 768px) {
+  .qqService_text span {
+    font-size: 10px; }
+
+  .phoneService_text span {
+    font-size: 10px; }
+
+  .toTop_text span {
+    font-size: 10px; } }
+.sidebarParent {
+  position: fixed;
+  top: 0;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  height: 100vh; }
+
+.sidebarRight {
+  display: flex;
+  flex-direction: column; }
+.sidebarRight .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 8vw;
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 40px;
+  min-height: 40px;
+  margin: 1rem 0;
+  border-radius: 50%;
+  background-color: #169e93;
+  cursor: pointer; }
+.sidebarRight .circle_logo {
+  width: 40%; }
+
+.contactUsNum {
+  color: #999; }
+
+.phoneService {
+  position: relative; }
+.phoneService .phoneService_msg {
+  position: absolute;
+  left: -180px;
+  width: 162px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 1px #999999; }
+.phoneService .phoneService_msg .triangle-right {
+  position: absolute;
+  top: -8px;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-left: 12px solid #fff;
+  border-bottom: 6px solid transparent; }
