@@ -87,5 +87,5 @@ function randarr() {
     log('杀手人数:',kill.length);
     return Arr
 }
-document.getElementById("killer").=kill.length;
+document.getElementById("killer").innerHTML="段落已修改。";
 document.getElementById("civilian").innerHTML="段落已修改。";
