@@ -79,13 +79,16 @@ function randarr() {
             killNum++
         }
     }
+
     log('平民人数:',killNum);
+    document.getElementById("civilian").innerHTML=killNum;
 
 
     kill=Arr.filter(x=>x==='杀手');
+    document.getElementById("killer").innerHTML=kill.length;
+
+
     log(kill);
     log('杀手人数:',kill.length);
     return Arr
 }
-document.getElementById("killer").innerHTML="段落已修改。";
-document.getElementById("civilian").innerHTML="段落已修改。";
