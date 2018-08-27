@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/js2.1.css">
+</head>
+<body>
+<div class="whole">
+<header>
+<div class="box"></div>
+    <span>参数设置</span>
+    <img src="../img/js2.2.png"/>
+</header>
+<main>
+    <div class="father">
+    <div class="list flex">
+<p>玩<br>
+    家<br>
+    配<br>
+    比</p>
+    </div>
+        <div class="right">
+            <div class="top">
+
+                <div class="why">
+                    杀手 <span id="killer"></span>人
+                    水民 <span id="civilian"></span> 人
+                </div>
+            </div>
+        <div class="fon flex" onclick="randarr()">
+
+            点击设置
+            <img src="../img/js2.1.png"/></div>
+        </div>
+    </div>
+<div class="input">
+    <div class="one">
+        <input  placeholder="水民词汇">
+    </div>
+    <div class="two">
+        <input  placeholder="幽灵词汇">
+    </div>
+</div>
+
+</main>
+    <footer >
+        <div class="bootm flex">
+            <div class="size">玩家人<input type="tel" value="4" min="4" max="18" maxlength="2"
+                                        onchange="berjs()" class="an" id="playernum">数</div>
+        </div>
+        <div class="flex">
+            <button  id="increase" class="increase" onclick="sud()">-</button>
+            <input id="quantity"  type="range"id="trackBar" value='4'  min="4" max="18" onchange="the()">
+            <button id="decrease" class="decrease" onclick="add()">+</button>
+        </div>
+    </footer>
+    <div class="go" id="go">
+        去发牌
+    </div>
+</div>
+</body>
+<script src="../js/js2.js"></script>
+</html>

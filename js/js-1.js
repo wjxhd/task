@@ -22,7 +22,7 @@ function colors() {
     return rgb;
 }
 var int;
-document.getElementById('start').onclick = function () {
+document.getElementsByClassName('start').onclick = function () {
     clearInterval(int);//停止定时器
     int=self.setInterval("begin()",1000)
 }
