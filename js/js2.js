@@ -75,13 +75,13 @@ function randarr() {
             killNum++
         }
     }
-    // for (let i in Arr) {
+    log('杀手人数:',killNum);
+    document.getElementById("killer").innerHTML=killNum;
+// for (let i in Arr) {
     //     if(Arr[i]==='杀手'){
     //         killNum++
     //     }
     // }
-    log('杀手人数:',killNum);
-    document.getElementById("killer").innerHTML=killNum;
-
+    document.getElementById("civilian").innerHTML=num-killNum;
     return Arr
 }
