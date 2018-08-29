@@ -68,27 +68,20 @@ function randarr() {
         }
     }
     console.log(Arr);
+
     let killNum=0;
     for (let i=0;i<Arr.length;i++){
         if(Arr[i]==='杀手'){
             killNum++
         }
     }
-    for (let i in Arr) {
-        if(Arr[i]==='杀手'){
-            killNum++
-        }
-    }
+    // for (let i in Arr) {
+    //     if(Arr[i]==='杀手'){
+    //         killNum++
+    //     }
+    // }
+    log('杀手人数:',killNum);
+    document.getElementById("killer").innerHTML=killNum;
 
-    log('平民人数:',killNum);
-    document.getElementById("civilian").innerHTML=killNum;
-
-
-    kill=Arr.filter(x=>x==='杀手');
-    document.getElementById("killer").innerHTML=kill.length;
-
-
-    log(kill);
-    log('杀手人数:',kill.length);
     return Arr
 }
