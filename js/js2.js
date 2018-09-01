@@ -85,3 +85,6 @@ function randarr() {
     document.getElementById("civilian").innerHTML=num-killNum;
     return Arr
 }
+sessionStorage.setItem("killer", JSON.stringify(killer));
+sessionStorage.setItem("Arr", JSON.stringify(Arr));
+sessionStorage.setItem("killNum", JSON.stringify(killNum));
