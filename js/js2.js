@@ -68,6 +68,7 @@ function randarr() {
         }
     }
     console.log(Arr);
+    sessionStorage.setItem("Arr", JSON.stringify(Arr));
 
     let killNum=0;
     for (let i=0;i<Arr.length;i++){
@@ -77,14 +78,12 @@ function randarr() {
     }
     log('杀手人数:',killNum);
     document.getElementById("killer").innerHTML=killNum;
-// for (let i in Arr) {
-    //     if(Arr[i]==='杀手'){
-    //         killNum++
-    //     }
-    // }
     document.getElementById("civilian").innerHTML=num-killNum;
     return Arr
+   console.log(Arr)
 }
-sessionStorage.setItem("killer", JSON.stringify(killer));
-sessionStorage.setItem("Arr", JSON.stringify(Arr));
-sessionStorage.setItem("killNum", JSON.stringify(killNum));
+
+$("#go").click(function(){
+    the()
+    window.location.href="js3.html";
+});

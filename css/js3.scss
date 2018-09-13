@@ -12,7 +12,7 @@ header{
   background: #29bde0;
   border-bottom: 1px solid white;
 }
-.return{
+#return{
   content: '';
   display: block;
   width: 25px;
@@ -22,7 +22,12 @@ header{
   -webkit-transform: rotate(135deg);
   transform: rotate(225deg);
 }
-.close{
+#close{
+   margin: 10px 0;
+   color: #ffffff;
+   font-size: 40px;
+ }
+.closeone{
   margin: 10px 0;
   color: #ffffff;
   font-size: 40px;
@@ -68,3 +73,15 @@ main #one{
 #picture{
   position: absolute;
 }
+#position{
+  display: none;
+  position: absolute;
+  top: 460px;
+  font-size: 20px;
+  color: crimson;
+}
+#clickone{
+  padding: 31px 270px;
+  display: contents;
+}
+

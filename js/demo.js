@@ -1,15 +1,15 @@
-// document.getElementById('x').onclick =function(){
-//     alert("一顿操作");
-//     $("#x").append("+1");
-// }
-
-// document.getElementsByClassName('y')
-
-// document.getElementsByTagName('div')
-
-
-// $("#x").click(function(){
-//     alert("一顿操作");
-//     $("#x").append("追加文本");
-// });
-
+var fsm = new StateMachine({
+    init: 'solid',
+    transitions: [
+        { name: 'melt',     from: 'solid',  to: 'liquid' },
+        { name: 'freeze',   from: 'liquid', to: 'solid'  },
+        { name: 'vaporize', from: 'liquid', to: 'gas'    },
+        { name: 'condense', from: 'gas',    to: 'liquid' }
+    ],
+    methods: {
+        onMelt:     function() { console.log('I melted')    },
+        onFreeze:   function() { console.log('I froze')     },
+        onVaporize: function() { console.log('I vaporized') },
+        onCondense: function() { console.log('I condensed') }
+    }
+});

@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  max-width: 768px;
+  min-width: 320px;
+  background: #fafafa;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  line-height: 60px;
+  padding: 0 20px;
+  background-color: #5fc0cd;
+  color: #fff;
+}
+.box{
+  background: #ffff;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+main{
+  margin: 20px 0;
+  padding: 5%;
+}
+.day{
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  border-bottom-style: groove;
+  color: black;
+}
+.opery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+main img{
+  height: 40px;
+}
+.taiangle1{
+  display: inline-block;
+  margin-left: 3vh;
+  border-right: 4vh solid #34bddd;
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
+.obding1{
+  width: 70%;
+  height: 80px;
+  background: #34bddd;
+}
+.opacity{
+  opacity: 0;
+}
+.obding2{
+  width: 70%;
+  height: 80px;
+  background: #34bddd;
+}
+.obding3{
+  width: 70%;
+  height: 80px;
+  background: #34bddd;
+}
+.obding4{
+   width: 70%;
+   height: 80px;
+   background: #34bddd;
+ }
+.taiangle2{
+  display: inline-block;
+  margin-left: 3vh;
+  border-right: 4vh solid #34bddd;
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
+.taiangle3{
+  display: inline-block;
+  margin-left: 3vh;
+  border-right: 4vh solid #34bddd;
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
+.taiangle4{
+  display: inline-block;
+  margin-left: 3vh;
+  border-right: 4vh solid #34bddd;
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
+
+#detail{
+color: black;
+  display: none;
+}
