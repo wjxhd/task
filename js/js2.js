@@ -50,7 +50,6 @@ function randarr() {
         Arr[i] = "平民";
 
         if ( i+1 >= 3 * n) {
-
             Arr[i] = "杀手";
             n++;
         }
@@ -69,7 +68,6 @@ function randarr() {
     }
     console.log(Arr);
     sessionStorage.setItem("Arr", JSON.stringify(Arr));
-
     let killNum=0;
     for (let i=0;i<Arr.length;i++){
         if(Arr[i]==='杀手'){
@@ -82,7 +80,6 @@ function randarr() {
     return Arr
    console.log(Arr)
 }
-
 $("#go").click(function(){
     the()
     window.location.href="js3.html";

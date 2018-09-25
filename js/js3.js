@@ -1,7 +1,6 @@
 
 var Arr=JSON.parse(sessionStorage.getItem("Arr"));//一顿操作上一个页面的数组
 console.log(Arr)
-// console.log(Arr[0])
 $("#bn").click(function(){
     $("#clickone").toggle();
     $("#click").toggle();
@@ -17,7 +16,9 @@ $("#clickone").click(function (){
     document.getElementById("no").innerHTML=x;
 })
 
-var a = 0
+if (a == undefined){
+    var a = 0
+}
 $("#bn").click(function (){
     document.getElementById("operation").innerHTML=Arr[x-1];
     a++;

@@ -2,6 +2,7 @@ var Arr=JSON.parse(sessionStorage.getItem("Arr"));//一顿操作上一个页面�
 var y=JSON.parse(sessionStorage.getItem("y"));//一顿操作上一个页面的数组
 var num=JSON.parse(sessionStorage.getItem("num"));//一顿操作上一个页面的数组
 var det=JSON.parse(sessionStorage.getItem("det"));//一顿操作上一个页面的数组
+var god=JSON.parse(sessionStorage.getItem("god"));//一顿操作上一个页面的数组
 console.log(Arr);
 var testCopy=JSON.parse(sessionStorage.getItem("testCopy"));//一顿操作上一个页面的数组
 var day=JSON.parse(sessionStorage.getItem("day"));//一顿操作上一个页面的数组
@@ -11,6 +12,15 @@ var i=1;
 var indexArr=JSON.parse(sessionStorage.getItem("indexArr"));//一顿操作上一个页面的数组
 var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作上一个页面的数组
 var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的数组
+
+if (god == 3){
+    $("button").click(function () {
+        window.location.href="js4.1.html";
+    })
+    document.getElementById("button").innerHTML = "返回";
+}
+
+
 
 if(testCopy == undefined){
     (function(){
@@ -219,6 +229,7 @@ function toupiao(){
         sessionStorage.setItem("toupiaoArr", JSON.stringify(toupiaoArr))
     }
 }
+
 
 
 $("#return").click(function(){

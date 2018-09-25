@@ -10,8 +10,28 @@ var det=JSON.parse(sessionStorage.getItem("det"));//一顿操作上一个页面�
 var sw=JSON.parse(sessionStorage.getItem("sw"));//一顿操作上一个页面的数组
 var y=JSON.parse(sessionStorage.getItem("y"));//一顿操作上一个页面的数组
     var index=JSON.parse(sessionStorage.getItem("index"));//一顿操作上一个页面的数组
+var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的数组
 var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作上一个页面的数组
-
+$("#over").click(function () {
+    var r=confirm("确定结束游戏？");
+    if (r==true){
+        sessionStorage.removeItem('Arr');
+        sessionStorage.removeItem('testCopy');
+        sessionStorage.removeItem('day');
+        sessionStorage.removeItem('indexArr');
+        sessionStorage.removeItem('x');
+        sessionStorage.removeItem('det');
+        sessionStorage.removeItem('sw');
+        sessionStorage.removeItem('y');
+        sessionStorage.removeItem('index');
+        sessionStorage.removeItem('u');
+        sessionStorage.removeItem('toupiaoArr');
+        window.location.href="js2.html";
+    }
+    else{
+        alert("游戏继续");
+    }
+})
 if(day == undefined){
     var day = 1
 }
@@ -84,13 +104,13 @@ function hanum() {
                   ' </span>'+ '天' + '</div>\n' +
                   '<div class="jqu">\n' +
                   '<div class="opery">\n' +
-                  '<img class="hei" src="../img/js4hei.png" >\n' +
+                  '<img class="hei none" src="../img/js4hei.png" >\n' +
                   '<div class="taiangle1">\n' +
                   '</div>\n' +
                   '<div class="obding1">杀手杀人</div>\n' +
                   '</div>\n' +
                   '<div class="detail">\n' +
-                  '<span class="miser"> '+(indexArr[u]+1)+' 号被杀死，真实身份是平民  </span>\n' +
+                  '<span class="miser"> '+(indexArr[u]+1)+' 号被杀死，真实身份是平民'+'</span>\n' +
                   '</div>\n' +
                   '<div class="opery">\n' +
                   '<img class="hei" src="../img/js4bai.png" >\n' +
@@ -111,7 +131,7 @@ function hanum() {
                   '<div class="obding4" id="whole">投票</div>\n' +
                   '</div>\n' +
                   '   <div class="detai2"> \n' +
-                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[u-1] + '     </span>        \n' +
+                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[u] + '     </span>        \n' +
                   '   </div>   </div>\n' +
                   '                </div>')
               sessionStorage.setItem("u", JSON.stringify(u))
@@ -125,10 +145,6 @@ function hanum() {
               });
           }
       }
-
-// $("detail").show();
-// $("tousi").show();
-
 //有限状态机
 var $sfm = new StateMachine({
     init: 'solid',
@@ -245,3 +261,12 @@ sessionStorage.setItem("day", JSON.stringify(day));
 sessionStorage.setItem("testCopy", JSON.stringify(testCopy));//存储
 sessionStorage.setItem("indexArr", JSON.stringify(indexArr))
 sessionStorage.setItem("toupiaoArr", JSON.stringify(toupiaoArr))
+
+$("#return").click(function(){
+    alert("返回上一个页面");
+    window.location.href="js2.html";
+});
+$("#log").click(function () {
+    sessionStorage.setItem("god", JSON.stringify(3));//存储
+    window.location.href="js4.2.html";
+})

@@ -31,3 +31,8 @@ for (var e = 0; e<day-1; e++) {
 }
 console.log(testCopy);
 
+$("#return").click(function(){
+    alert("返回上一个页面");
+    window.location.href="js2.html";
+});
+
