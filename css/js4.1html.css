@@ -93,8 +93,33 @@ main img {
   border-top: 3vh solid transparent;
   border-bottom: 3vh solid transparent; }
 
-#detail {
+.detail {
+  line-height: 40px;
+  color: black; }
+
+.red {
+  background-color: #83b09a;
+  pointer-events: none; }
+
+.hei {
+  position: relative; }
+
+.bai {
+  opacity: 0; }
+
+.numder {
   color: black;
+  line-height: 40px; }
+
+.tousi {
+  display: none;
+  color: black;
+  line-height: 40px; }
+
+#toupiao {
+  display: none; }
+
+.miser {
   display: none; }
 
 /*# sourceMappingURL=js4.1html.css.map */

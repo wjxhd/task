@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+}
+.go{
+  width: 100%;
+  height: 60px;
+  background: #34bede;
+  text-align: center;
+  line-height: 60px;
+  border-bottom-style: solid;
+  color:azure;
+  position: relative;
+  border-bottom-width: 0.1px;
+}
+.picture1{
+  height: 30px;
+  width: 37px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%,-50%);
+  margin: 0 0 0 10px;
+}
+.picture2{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 92%;
+  transform: translate(-50%,-50%);
+  margin: 0 10px 0 0;
+}
+.script1{
+  color: aliceblue;
+}
+.top{
+  background: #34bede;
+}
+.pg{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+main img{
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+}
+#position{
+  position: absolute;
+  top: 180px;
+  font-size: 18px;
+  color: aliceblue;
+}
+main{
+  background: #34bede;
+}
+.right{
+  margin-left: 50px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.time{
+  float: left;
+}
+.timetwo{
+  float: right;
+}
+.heiye{
+  padding-top: 30px;
+}
+.one{
+  margin: 20px;
+}

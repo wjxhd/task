@@ -10,16 +10,16 @@ $("#bn").click(function(){
 });
 $("#clickone").hide();
 
-var i=1;
+var x=1;
 $("#clickone").click(function (){
-    i=i+1;
-    document.getElementById("one").innerHTML=i;
-    document.getElementById("no").innerHTML=i;
+    x=x+1;
+    document.getElementById("one").innerHTML=x;
+    document.getElementById("no").innerHTML=x;
 })
 
 var a = 0
 $("#bn").click(function (){
-    document.getElementById("operation").innerHTML=Arr[i-1];
+    document.getElementById("operation").innerHTML=Arr[x-1];
     a++;
     if (a>Arr.length*2-2 )
     {

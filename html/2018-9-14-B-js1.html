@@ -46,8 +46,8 @@
 <div class="reveal">
     <div class="slides">
         <section>
-            <h2>ID和class的区别</h2>
-            <p style="text-align: center;">分享人： 徐海达</p>
+            <h2>ID和Class有什么区别</h2>
+            <p style="text-align: center;">分享人：徐海达</p>
         </section>
         <section>
             <p>目录</p>
@@ -64,70 +64,69 @@
             <h3>一、背景介绍</h3>
         </section>
         <section>
-            <h3>ID和class的区别</h3>
-            <P class="font">DOM是针对于HTML和XML文档的一个API（应用程序编程接口
-                ）。是W3C组织推荐的处理可扩展标志语言的标准编程接口
-                在网页上，组织页面（或文档）的对象被组织在一个树形结构中，用来表示
-                文档中对象的标准模型就称为DOM。</P>
-            <P class="font">当网页被加载时，浏览器会创建页面的文档对象模型</P>
-            <P class="font">在DOM中，可以将任何HTML或者XML的文档描绘成一个由
-                多层节点构成的结构</P>
+            <h3></h3>
+            <P class="font">HTML页面中的元素实现一对一，一对多或者多对一的控制，这就需要用到CSS选择器。</P>
+            <P class="font">HTML页面中的元素就是通过CSS选择器进行控制的。本次讲的id和Class就是id选择器和类选择器。</P>
+
         </section>
         <section>
             <h3>二、知识剖析</h3>
         </section>
 
-        <section>
-            <img src="https://it-xzy.github.io/WEB-NEW/img/2018-5-23%20B%E7%BB%84/dom%E6%A0%91.png" alt="">
-        </section>
-        <section>
-            <h3>获取dom节点</h3>
-            <p>1.id查找 document.getElementById()</p>
-            <p>2.class查找 document.getElementsByClassName()</p>
-            <p>3.标签查找 document.getElementsByTagName()</p>
-        </section>
-        <section>
-            <h3>注意事项</h3>
-            <p> ID不能重名，如果ID重复，只能取到第一个。</p>
-            <p> 获取元素节点时，必须等到DOM树加载完成后才能获取。</p>
-            <p class="font">通过class和标签获取到的节点为数组格式，操作时必须取到其中的每一个元素（数组下标），才能进行操作，而不能直接对数组进行操作。</p>
-        </section>
-        <section>
-            <h3>节点操作</h3>
-            <p>1. .childNodes： 获取当前节点的所有子节点（包括元素节点和文本节点）。</p>
-            <p>.children： 获取当前节点的所有元素子节点（不包含文本节点）。</p>
-            <p>3 .parentNode: 获取当前节点的父节点。</p>
-        </section>
-        <section>
-            <h3>设置文本节点</h3>
-            <p>1.innerHTML: 取到或设置一个节点中的HTML代码。</p>
-            <p>2.innerText: 取到或设置一个节点中的文本，不能设置HTML代码。</p>
-        </section>
-        <section>
-            <h3>新增节点</h3>
-            <p>appendChild()： 在父节点的内部最后，插入一个新节点。</p>
-            <p>.cloneNode(true)： 克隆一个节点。</p>
-        </section>
-        <section>
-            <h3>删除、替换节点</h3>
-            <p>1.removeChild()： 从父节点中，删除指定子节点。</p>
-            <p>2.replaceChild()： 从父节点中，用新节点替换老节点。</p>
-        </section>
 
+        <section>
+            <h3>什么是ID</h3>
+            <p>从语义上来说，id是identity（ai'dentiti）的简写，identity是身份的意思，比如我们的身份证就叫做id-card。</p>
+            <p>在html中，id是设置标签的标识，使用方法</p>
+            <p>#id名称{样式声明}</p>
+            <p>document.getElementById("id名称")</p>
+            <p>$("#id名称")</p>
+        </section>
+        <section>
+            <h3>ID的作用</h3>
+            <p>id属性规定HTML元素的唯一的id。</p>
+            <p>id在HTML文档中必须是唯一的。</p>
+            <p>id属性可用作链接锚（link anchor），通过JavaScript（HTML DOM）或通过CSS为带有指定id的元素改变或添加样式</p>
+        </section>
+        <section>
+            <h3>什么是class</h3>
+            <p>从语义上来说，class是类别的意思，他表示的是具有共同特点的东西，比如我们说我们是一类人，就是说我们有相同的特点。</p>
+            <p>在html中，我们用class为标签设定一个可以复用的标识，具有同样class的标签就会有相同的特点：</p>
+            <p>class名称{样式声明}</p>
+            <P>document.getElementsByClassName("class名称")</P>
+            <P>$(".class名称")</P>
+        </section>
+        <section>
+            <h3>class的作用</h3>
+            <p>在css中，用class来定义那些可复用的样式，然后可以套给多个结构/内容。</p>
+            <p>在JS中，获取到的class将是一个数组，在使用的时候要特别注意！</p>
+        </section>
 
         <section>
             <h3>三、常见问题</h3>
         </section>
         <section>
-            <p>cloneNode(true)： 克隆节点true有什么用</p>
+            <p>ID和class的区别</p>
+            <P>ID和class的优先级</P>
         </section>
         <section>
             <h3>四、解决方案</h3>
         </section>
         <section>
-            <p>传入true表示克隆源节点以及源节点的所有子节点；</p>
-            <p>传入false或不传，表示只克隆当前节点，而不克隆子节点。</p>
+            <H3>ID和class的区别</H3>
+            <P>class是设置标签的类，用于指定元素属于何种样式的类。在CSS样式中以小写的“点”及“.”来命名</P>
+            <P>id是设置标签的标识。用于定义一个元素的独特的样式。在CSS样式定义的时候 以“#”来开头命名id名称</P>
+            <P>class可以重复，id是唯一的</P>
         </section>
+
+
+        <section>
+            <H3>ID和class的优先级</H3>
+            <P>通过继承来的属性id的优先级高于class</P>
+            <p>一个元素同时应用多个class，后定义的优先（即近者优先），加上!important者最优先！</p>
+
+        </section>
+
 
         <section>
             <h3>五、编码实战</h3>
@@ -135,16 +134,18 @@
 
         <section>
             <h3>六、拓展思考</h3>
-            jquery获取DOM节点
         </section>
-
+        <section>
+            <p>在一般情况下：我们利用class来为元素添加样式----css</p>
+            <p>利用id来为元素添加行为----js/jQuery</p>
+        </section>
 
 
         <section>
             <h3>七、参考文献</h3>
         </section>
         <section>
-            <a href="https://blog.csdn.net/zhouziyu2011/article/details/60961444">浅谈原生JS和jQuery操作DOM</a>
+            <a href="https://www.zhihu.com/question/19550864">CSS 的 ID 和 Class 有什么区别</a>
             <br>
 
             <br>
