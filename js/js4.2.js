@@ -16,6 +16,7 @@ var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的�
 if (god == 3){
     $("button").click(function () {
         window.location.href="js4.1.html";
+        sessionStorage.setItem("god", JSON.stringify(0))
     })
     document.getElementById("button").innerHTML = "返回";
 }

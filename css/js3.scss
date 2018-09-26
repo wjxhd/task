@@ -54,11 +54,12 @@ main img{
 button{
   width: 100%;
   border-width: 0;
+  padding: 0;
   background: #ffc107;
   outline: none;
   color: white;
   font-size: 22px;
-  line-height: 85px;
+  height: 85px;
 }
 main #one{
   width: 50px;

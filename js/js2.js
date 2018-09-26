@@ -1,4 +1,5 @@
 let {log}=console;
+the()
 function add() {
     var num = parseInt(document.getElementById("quantity").value);
     log(num);

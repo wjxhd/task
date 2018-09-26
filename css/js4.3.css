@@ -74,4 +74,26 @@ main {
 .one {
   margin: 20px; }
 
+#over {
+  background: #f44336de;
+  line-height: 50px;
+  width: 30%;
+  text-align: center; }
+
+#log {
+  background: aquamarine;
+  line-height: 50px;
+  width: 30%;
+  text-align: center;
+  margin-right: 10vw; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  max-width: 768px;
+  min-width: 320px; }
+
 /*# sourceMappingURL=js4.3.css.map */

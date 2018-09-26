@@ -24,12 +24,26 @@ for (var e = 0; e<day-1; e++) {
             `<div class="one">
 <div class="time">第 <span class="six">${e+1}</span>天</div>
 <span class="timetwo">0分0秒</span>
-<div class="heiye">夜晚： ${indexArr[e]}号被杀，真实身份是平民</div>
-<div class="baitian">白天：${toupiaoArr[e]}  号被投死，真实身份是 ${Arr[u]}</div>
+<div class="heiye">夜晚： ${indexArr[e]+1}号被杀，真实身份是平民</div>
+<div class="baitian">白天：${toupiaoArr[e]+1}  号被投死，真实身份是 ${Arr[index-1]}</div>
 </div>`)
     }())
 }
 console.log(testCopy);
+$("#log").click(function () {
+        sessionStorage.removeItem('Arr');
+        sessionStorage.removeItem('testCopy');
+        sessionStorage.removeItem('day');
+        sessionStorage.removeItem('indexArr');
+        sessionStorage.removeItem('x');
+        sessionStorage.removeItem('det');
+        sessionStorage.removeItem('sw');
+        sessionStorage.removeItem('y');
+        sessionStorage.removeItem('index');
+        sessionStorage.removeItem('u');
+        sessionStorage.removeItem('toupiaoArr');
+        window.location.href="js2.html";
+})
 
 $("#return").click(function(){
     alert("返回上一个页面");

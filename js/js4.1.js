@@ -12,6 +12,7 @@ var y=JSON.parse(sessionStorage.getItem("y"));//一顿操作上一个页面的�
     var index=JSON.parse(sessionStorage.getItem("index"));//一顿操作上一个页面的数组
 var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的数组
 var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作上一个页面的数组
+
 $("#over").click(function () {
     var r=confirm("确定结束游戏？");
     if (r==true){
@@ -131,7 +132,7 @@ function hanum() {
                   '<div class="obding4" id="whole">投票</div>\n' +
                   '</div>\n' +
                   '   <div class="detai2"> \n' +
-                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[u] + '     </span>        \n' +
+                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[(u)] + '     </span>        \n' +
                   '   </div>   </div>\n' +
                   '                </div>')
               sessionStorage.setItem("u", JSON.stringify(u))
@@ -262,11 +263,38 @@ sessionStorage.setItem("testCopy", JSON.stringify(testCopy));//存储
 sessionStorage.setItem("indexArr", JSON.stringify(indexArr))
 sessionStorage.setItem("toupiaoArr", JSON.stringify(toupiaoArr))
 
-$("#return").click(function(){
-    alert("返回上一个页面");
-    window.location.href="js2.html";
-});
+
 $("#log").click(function () {
     sessionStorage.setItem("god", JSON.stringify(3));//存储
     window.location.href="js4.2.html";
 })
+$("#return").click(function(){
+    alert("返回上一个页面");
+    sessionStorage.removeItem('Arr');
+    sessionStorage.removeItem('testCopy');
+    sessionStorage.removeItem('day');
+    sessionStorage.removeItem('indexArr');
+    sessionStorage.removeItem('x');
+    sessionStorage.removeItem('det');
+    sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('y');
+    sessionStorage.removeItem('index');
+    sessionStorage.removeItem('u');
+    sessionStorage.removeItem('toupiaoArr');
+    window.location.href="js2.html";
+});
+$("#close").click(function(){
+    alert("返回上一个页面");
+    sessionStorage.removeItem('Arr');
+    sessionStorage.removeItem('testCopy');
+    sessionStorage.removeItem('day');
+    sessionStorage.removeItem('indexArr');
+    sessionStorage.removeItem('x');
+    sessionStorage.removeItem('det');
+    sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('y');
+    sessionStorage.removeItem('index');
+    sessionStorage.removeItem('u');
+    sessionStorage.removeItem('toupiaoArr');
+    window.location.href="js2.html";
+});

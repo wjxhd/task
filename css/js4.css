@@ -19,9 +19,10 @@ header {
   background: #bce8f1; }
 
 main {
-  min-height: 562px;
+  min-height: 600px;
   background-color: #5fc0cd;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 100px; }
 
 button {
   position: fixed;

@@ -18,3 +18,33 @@ $("button").click(function(){
 });
 
 sessionStorage.setItem("Arr", JSON.stringify(Arr));
+$("#return").click(function(){
+    alert("返回上一个页面");
+    sessionStorage.removeItem('Arr');
+    sessionStorage.removeItem('testCopy');
+    sessionStorage.removeItem('day');
+    sessionStorage.removeItem('indexArr');
+    sessionStorage.removeItem('x');
+    sessionStorage.removeItem('det');
+    sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('y');
+    sessionStorage.removeItem('index');
+    sessionStorage.removeItem('u');
+    sessionStorage.removeItem('toupiaoArr');
+    window.location.href="js2.html";
+});
+$("#close").click(function(){
+    alert("返回上一个页面");
+    sessionStorage.removeItem('Arr');
+    sessionStorage.removeItem('testCopy');
+    sessionStorage.removeItem('day');
+    sessionStorage.removeItem('indexArr');
+    sessionStorage.removeItem('x');
+    sessionStorage.removeItem('det');
+    sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('y');
+    sessionStorage.removeItem('index');
+    sessionStorage.removeItem('u');
+    sessionStorage.removeItem('toupiaoArr');
+    window.location.href="js2.html";
+});
