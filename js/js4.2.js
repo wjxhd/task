@@ -12,13 +12,21 @@ var i=1;
 var indexArr=JSON.parse(sessionStorage.getItem("indexArr"));//一顿操作上一个页面的数组
 var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作上一个页面的数组
 var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的数组
+var wyz=JSON.parse(sessionStorage.getItem("wyz"));//一顿操作上一个页面的数组
+var xyzz=JSON.parse(sessionStorage.getItem("xyzz"));//一顿操作上一个页面的数组
+
 
 if (god == 3){
     $("button").click(function () {
         window.location.href="js4.1.html";
         sessionStorage.setItem("god", JSON.stringify(0))
+        sessionStorage.setItem("wyz", JSON.stringify(wyz))
     })
+    $("box").css({
+        "pointer-events":"none",
+    });
     document.getElementById("button").innerHTML = "返回";
+    document.getElementById("top").innerHTML = "上帝视角";
 }
 
 
@@ -240,3 +248,4 @@ $("#return").click(function(){
 sessionStorage.setItem("det", JSON.stringify(det))
 sessionStorage.setItem("x", JSON.stringify(x));//存储
 sessionStorage.setItem("u", JSON.stringify(u))
+sessionStorage.setItem("xyzz", JSON.stringify(xyzz))

@@ -72,7 +72,9 @@ main{
   padding-top: 30px;
 }
 .one{
-  margin: 20px;
+  margin: 20px 0;
+  padding: 11px 20px;
+  border-bottom: solid 1px #9999;
 }
 #over{
   background: #f44336de;
@@ -95,4 +97,7 @@ footer{
   bottom: 0;
   max-width: 768px;
   min-width: 320px;
+}
+.dynamic{
+  margin-bottom: 300px;
 }

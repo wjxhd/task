@@ -1,10 +1,8 @@
-var Arr=JSON.parse(sessionStorage.getItem("Arr"));//一顿操作上一个页面的数组
-console.log(Arr);
 var testCopy=JSON.parse(sessionStorage.getItem("testCopy"));//一顿操作上一个页面的数组
 console.log(testCopy)
 var day=JSON.parse(sessionStorage.getItem("day"));//一顿操作上一个页面的数组
 var indexArr;
-    indexArr=JSON.parse(sessionStorage.getItem("indexArr"));//一顿操作上一个页面的数组
+indexArr=JSON.parse(sessionStorage.getItem("indexArr"));//一顿操作上一个页面的数组
 var x=JSON.parse(sessionStorage.getItem("x"));//一顿操作上一个页面的数组
 var det=JSON.parse(sessionStorage.getItem("det"));//一顿操作上一个页面的数组
 var sw=JSON.parse(sessionStorage.getItem("sw"));//一顿操作上一个页面的数组
@@ -12,6 +10,9 @@ var y=JSON.parse(sessionStorage.getItem("y"));//一顿操作上一个页面的�
     var index=JSON.parse(sessionStorage.getItem("index"));//一顿操作上一个页面的数组
 var u=JSON.parse(sessionStorage.getItem("u"));//一顿操作上一个页面的数组
 var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作上一个页面的数组
+var Arr=JSON.parse(sessionStorage.getItem("Arr"));//一顿操作上一个页面的数组
+var wyz=JSON.parse(sessionStorage.getItem("wyz"));//一顿操作上一个页面的数组
+console.log(Arr);
 
 $("#over").click(function () {
     var r=confirm("确定结束游戏？");
@@ -132,7 +133,7 @@ function hanum() {
                   '<div class="obding4" id="whole">投票</div>\n' +
                   '</div>\n' +
                   '   <div class="detai2"> \n' +
-                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[(u)] + '     </span>        \n' +
+                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[index] + '     </span>        \n' +
                   '   </div>   </div>\n' +
                   '                </div>')
               sessionStorage.setItem("u", JSON.stringify(u))
@@ -175,9 +176,12 @@ var $sfm = new StateMachine({
         },
     }
 });
+
 // 点击事件
 $(".obding1").click(function () {
   $sfm.obdingone()
+    sessionStorage.setItem("wyz", JSON.stringify(1));
+    sessionStorage.setItem("xyzz", JSON.stringify(99));
     sessionStorage.setItem("y", JSON.stringify(0));
     sessionStorage.setItem("num", JSON.stringify(0));
     sessionStorage.setItem("det", JSON.stringify(1));
@@ -187,10 +191,15 @@ $(".obding1").click(function () {
 });
 $(".obding2").click(function () {
     $sfm. obdingtwo()
+    sessionStorage.setItem("xyzz", JSON.stringify(1));
+    wyz = 2
+    sessionStorage.setItem("wyz", JSON.stringify(2));
     alert("真伤心！");
 });
 $(".obding3").click(function () {
    $sfm. obdingthree()
+    wyz =3
+    sessionStorage.setItem("wyz", JSON.stringify(3));
     alert("我不是杀手！");
 
 });
@@ -202,6 +211,9 @@ $(".obding4").click(function () {
     sessionStorage.setItem("num", JSON.stringify(1));
     sessionStorage.setItem("det", JSON.stringify(2));
     sessionStorage.setItem("x", JSON.stringify(2));
+    if (wyz == 3){
+        sessionStorage.setItem("wyz", JSON.stringify(0));
+    }
     window.location.href="js4.2.html";
 });
 sessionStorage.setItem("Arr", JSON.stringify(Arr));
@@ -251,10 +263,20 @@ for (var u=2; u<=day; u++){
         "pointer-events":"none",
     });
 }
-
-if (y == 0) {
+if (wyz == 1) {
     $sfm.obdingone()
-    sessionStorage.setItem("y", JSON.stringify(1));
+    sessionStorage.setItem("wyz", JSON.stringify(1));
+}
+else if (wyz == 2){
+    $sfm.obdingone()
+    $sfm.obdingtwo()
+    sessionStorage.setItem("wyz", JSON.stringify(2));
+}
+else if (wyz == 3){
+    $sfm.obdingone()
+    $sfm.obdingtwo()
+    $sfm.obdingthree()
+    sessionStorage.setItem("wyz", JSON.stringify(3));
 }
 sessionStorage.setItem("index", JSON.stringify(index))
 sessionStorage.setItem("Arr", JSON.stringify(Arr));
@@ -266,6 +288,7 @@ sessionStorage.setItem("toupiaoArr", JSON.stringify(toupiaoArr))
 
 $("#log").click(function () {
     sessionStorage.setItem("god", JSON.stringify(3));//存储
+    sessionStorage.setItem("y", JSON.stringify(0))
     window.location.href="js4.2.html";
 })
 $("#return").click(function(){
@@ -298,3 +321,4 @@ $("#close").click(function(){
     sessionStorage.removeItem('toupiaoArr');
     window.location.href="js2.html";
 });
+sessionStorage.setItem("xyzz", JSON.stringify(xyzz))
