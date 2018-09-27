@@ -123,13 +123,17 @@ main img {
   display: none; }
 
 #over {
-  background: #f44336de;
+  background: #FFC107;
+  color: #FFFFFF;
   line-height: 50px;
   width: 30%;
-  text-align: center; }
+  text-align: center;
+  height: 50px; }
 
 #log {
-  background: aquamarine;
+  background: #FFC107;
+  color: #FFFFFF;
+  height: 50px;
   line-height: 50px;
   width: 30%;
   text-align: center;
@@ -139,9 +143,12 @@ footer {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
   position: fixed;
   bottom: 0;
   max-width: 768px;
-  min-width: 320px; }
+  min-width: 320px;
+  background: #00ffff40;
+  height: 80px; }
 
 /*# sourceMappingURL=js4.1html.css.map */

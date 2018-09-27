@@ -36,7 +36,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 566px;
+  height: 649px;
   background: #29bde0; }
 
 .center {
@@ -59,7 +59,13 @@ button {
   outline: none;
   color: white;
   font-size: 22px;
-  height: 85px; }
+  height: 85px;
+  position: fixed;
+  bottom: 0;
+  max-width: 225px;
+  min-width: 225px;
+  margin-bottom: 7px;
+  left: calc(50% - 120px); }
 
 main #one {
   width: 50px;
@@ -77,7 +83,7 @@ main #one {
 #position {
   display: none;
   position: absolute;
-  top: 460px;
+  top: 500px;
   font-size: 20px;
   color: crimson; }
 
