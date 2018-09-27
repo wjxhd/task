@@ -31,7 +31,7 @@ for (var e = 0; e<day-1; e++) {
 }
 
 if (xyzz == 99){
-    for (var e = 1; e<day-1; e++) {
+    for (var e = 1; e<day-e; e++) {
         (function  add() {
             $(".dynamic").append(
                 `<div class="one">

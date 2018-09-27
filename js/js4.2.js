@@ -17,16 +17,34 @@ var xyzz=JSON.parse(sessionStorage.getItem("xyzz"));//一顿操作上一个页�
 
 
 if (god == 3){
+    num = 100
     $("button").click(function () {
         window.location.href="js4.1.html";
         sessionStorage.setItem("god", JSON.stringify(0))
         sessionStorage.setItem("wyz", JSON.stringify(wyz))
+        sessionStorage.setItem("wyz", JSON.stringify(wyz))
+        sessionStorage.setItem("num", JSON.stringify(0))
     })
-    $("box").css({
-        "pointer-events":"none",
-    });
     document.getElementById("button").innerHTML = "返回";
     document.getElementById("top").innerHTML = "上帝视角";
+    $(document).ready(function(){
+        for (let x in Arr ){
+            // $(".box").eq(x).click(function(){
+            //     $(".no").hide();
+            //     $(".box").eq(x).children(".no").toggle()
+            // });
+        }
+    });
+}
+else{
+    $(document).ready(function(){
+        for (let x in Arr ){
+            $(".box").eq(x).click(function(){
+                $(".no").hide();
+                $(".box").eq(x).children(".no").toggle()
+            });
+        }
+    });
 }
 
 
@@ -53,14 +71,6 @@ else if (testCopy ==testCopy){
     }
 }
 //跳转页面
-$(document).ready(function(){
-    for (let x in Arr ){
-        $(".box").eq(x).click(function(){
-            $(".no").hide();
-            $(".box").eq(x).children(".no").toggle()
-        });
-    }
-});
 var box = document.getElementsByClassName("box");
 for (var i = 0; i < box.length; i++) {
     var a = box[i];

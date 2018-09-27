@@ -133,7 +133,7 @@ function hanum() {
                   '<div class="obding4" id="whole">投票</div>\n' +
                   '</div>\n' +
                   '   <div class="detai2"> \n' +
-                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[index] + '     </span>        \n' +
+                  '   <span class="tousi"> '+(toupiaoArr[u]+1)+'号被杀死，真实身份是 '+ Arr[u] + '     </span>        \n' +
                   '   </div>   </div>\n' +
                   '                </div>')
               sessionStorage.setItem("u", JSON.stringify(u))
@@ -321,4 +321,3 @@ $("#close").click(function(){
     sessionStorage.removeItem('toupiaoArr');
     window.location.href="js2.html";
 });
-sessionStorage.setItem("xyzz", JSON.stringify(xyzz))
