@@ -268,6 +268,7 @@ $("#return").click(function(){
     sessionStorage.removeItem('position');
     sessionStorage.removeItem('dayy');
     sessionStorage.removeItem('sum');
+        sessionStorage.removeItem('wyz');
     sessionStorage.removeItem('die');
     sessionStorage.removeItem('mie');
     sessionStorage.removeItem('xyzz');
@@ -285,6 +286,7 @@ $("#over").click(function () {
         sessionStorage.removeItem('day');
         sessionStorage.removeItem('indexArr');
         sessionStorage.removeItem('x');
+        sessionStorage.removeItem('wyz');
         sessionStorage.removeItem('det');
         sessionStorage.removeItem('sw');
         sessionStorage.removeItem('y');

@@ -66,6 +66,7 @@ $("#return").click(function(){
         sessionStorage.removeItem('sum');
         sessionStorage.removeItem('die');
         sessionStorage.removeItem('mie');
+        sessionStorage.removeItem('wyz');
         sessionStorage.removeItem('xyzz');
         window.location.href="js2.html";
     }
@@ -93,6 +94,7 @@ $("#close").click(function(){
         sessionStorage.removeItem('die');
         sessionStorage.removeItem('mie');
         sessionStorage.removeItem('xyzz');
+        sessionStorage.removeItem('wyz');
         window.location.href="js2.html";
     }
     else{

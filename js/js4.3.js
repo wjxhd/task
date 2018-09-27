@@ -59,6 +59,7 @@ $("#log").click(function () {
     sessionStorage.removeItem('position');
     sessionStorage.removeItem('dayy');
     sessionStorage.removeItem('sum');
+    sessionStorage.removeItem('wyz');
     sessionStorage.removeItem('die');
     sessionStorage.removeItem('mie');
     sessionStorage.removeItem('xyzz');
@@ -81,6 +82,7 @@ $("#return").click(function(){
         sessionStorage.removeItem('u');
         sessionStorage.removeItem('toupiaoArr');
         sessionStorage.removeItem('position');
+        sessionStorage.removeItem('wyz');
         sessionStorage.removeItem('dayy');
         sessionStorage.removeItem('sum');
         sessionStorage.removeItem('die');

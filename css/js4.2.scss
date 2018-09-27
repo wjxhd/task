@@ -73,3 +73,15 @@ button{
 .red{
    background-color: #83b09a;
  }
+.fuhezi{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  max-width: 768px;
+  min-width: 320px;
+  background: #00ffff40;
+  height: 80px;
+}

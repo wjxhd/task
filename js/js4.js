@@ -27,6 +27,7 @@ $("#return").click(function(){
     sessionStorage.removeItem('x');
     sessionStorage.removeItem('det');
     sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('wyz');
     sessionStorage.removeItem('y');
     sessionStorage.removeItem('index');
     sessionStorage.removeItem('u');
@@ -41,6 +42,7 @@ $("#close").click(function(){
     sessionStorage.removeItem('indexArr');
     sessionStorage.removeItem('x');
     sessionStorage.removeItem('det');
+    sessionStorage.removeItem('wyz');
     sessionStorage.removeItem('sw');
     sessionStorage.removeItem('y');
     sessionStorage.removeItem('index');

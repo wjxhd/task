@@ -52,20 +52,17 @@ main img{
   height: 150px;
 }
 button{
-  width: 50%;
+  width: 45%;
   border-width: 0;
-  padding: 0;
   background: #ffc107;
   outline: none;
   color: white;
   font-size: 22px;
-  height: 85px;
+  height: 70px;
   position: fixed;
-  bottom: 0;
-  /* max-width: 225px; */
+  bottom: 10px;
   min-width: 225px;
-  margin-bottom: 7px;
-  left: calc(50% - 25%);
+  left: calc(50% - 22.5%);
 }
 main #one{
   width: 50px;
@@ -90,5 +87,17 @@ main #one{
 #clickone{
   padding: 31px 270px;
   display: contents;
+}
+.fuhezi{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  max-width: 768px;
+  min-width: 320px;
+  background: #00ffff40;
+  height: 80px;
 }
 

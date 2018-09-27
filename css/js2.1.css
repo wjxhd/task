@@ -94,7 +94,7 @@ input[type=range] {
   outline: medium; }
 
 .go {
-  margin: 20px;
+  margin: 94px 20px 0 20px;
   text-align: center;
   line-height: 80px;
   background: orange;
@@ -103,5 +103,17 @@ input[type=range] {
 .why {
   text-align: center;
   padding-top: 50px; }
+
+.fuhezi {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  max-width: 768px;
+  min-width: 320px;
+  background: #00ffff40;
+  height: 80px; }
 
 /*# sourceMappingURL=js2.1.css.map */
