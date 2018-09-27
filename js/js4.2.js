@@ -252,9 +252,51 @@ function toupiao(){
 
 
 $("#return").click(function(){
-    alert("返回上一个页面");
+    var r=confirm("确定结束游戏？");
+    if (r==true){
+    sessionStorage.removeItem('Arr');
+    sessionStorage.removeItem('testCopy');
+    sessionStorage.removeItem('day');
+    sessionStorage.removeItem('indexArr');
+    sessionStorage.removeItem('x');
+    sessionStorage.removeItem('det');
+    sessionStorage.removeItem('sw');
+    sessionStorage.removeItem('y');
+    sessionStorage.removeItem('index');
+    sessionStorage.removeItem('u');
+    sessionStorage.removeItem('toupiaoArr');
+    sessionStorage.removeItem('position');
+    sessionStorage.removeItem('dayy');
+    sessionStorage.removeItem('sum');
+    sessionStorage.removeItem('die');
+    sessionStorage.removeItem('mie');
+    sessionStorage.removeItem('xyzz');
     window.location.href="js2.html";
-});
+    }
+    else{
+        alert("游戏继续");
+    }
+})
+$("#over").click(function () {
+    var r=confirm("确定结束游戏？");
+    if (r==true){
+        sessionStorage.removeItem('Arr');
+        sessionStorage.removeItem('testCopy');
+        sessionStorage.removeItem('day');
+        sessionStorage.removeItem('indexArr');
+        sessionStorage.removeItem('x');
+        sessionStorage.removeItem('det');
+        sessionStorage.removeItem('sw');
+        sessionStorage.removeItem('y');
+        sessionStorage.removeItem('index');
+        sessionStorage.removeItem('u');
+        sessionStorage.removeItem('toupiaoArr');
+        window.location.href="js2.html";
+    }
+    else{
+        alert("游戏继续");
+    }
+})
 sessionStorage.setItem("det", JSON.stringify(det))
 sessionStorage.setItem("x", JSON.stringify(x));//存储
 sessionStorage.setItem("u", JSON.stringify(u))

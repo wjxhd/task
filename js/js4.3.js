@@ -31,7 +31,7 @@ for (var e = 0; e<day-1; e++) {
 }
 
 if (xyzz == 99){
-    for (var e = 1; e<day-e; e++) {
+    for (var e = 0; e<day-e; e++) {
         (function  add() {
             $(".dynamic").append(
                 `<div class="one">
@@ -56,11 +56,40 @@ $("#log").click(function () {
         sessionStorage.removeItem('index');
         sessionStorage.removeItem('u');
         sessionStorage.removeItem('toupiaoArr');
+    sessionStorage.removeItem('position');
+    sessionStorage.removeItem('dayy');
+    sessionStorage.removeItem('sum');
+    sessionStorage.removeItem('die');
+    sessionStorage.removeItem('mie');
+    sessionStorage.removeItem('xyzz');
         window.location.href="js2.html";
 })
 
+
 $("#return").click(function(){
-    alert("返回上一个页面");
-    window.location.href="js2.html";
-});
+    var r=confirm("确定结束游戏？");
+    if (r==true){
+        sessionStorage.removeItem('Arr');
+        sessionStorage.removeItem('testCopy');
+        sessionStorage.removeItem('day');
+        sessionStorage.removeItem('indexArr');
+        sessionStorage.removeItem('x');
+        sessionStorage.removeItem('det');
+        sessionStorage.removeItem('sw');
+        sessionStorage.removeItem('y');
+        sessionStorage.removeItem('index');
+        sessionStorage.removeItem('u');
+        sessionStorage.removeItem('toupiaoArr');
+        sessionStorage.removeItem('position');
+        sessionStorage.removeItem('dayy');
+        sessionStorage.removeItem('sum');
+        sessionStorage.removeItem('die');
+        sessionStorage.removeItem('mie');
+        sessionStorage.removeItem('xyzz');
+        window.location.href="js2.html";
+    }
+    else{
+        alert("游戏继续");
+    }
+})
 
