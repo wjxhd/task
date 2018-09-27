@@ -30,12 +30,13 @@ button {
   bottom: 0;
   max-width: 768px;
   min-width: 320px;
-  width: 100%;
+  width: 50%;
   height: 57px;
   font-size: 20px;
   border: 0;
   color: #FFFFFF;
-  background: darkcyan; }
+  background: #FFC107;
+  left: calc(50% - 25%); }
 
 .box {
   margin: 3%;

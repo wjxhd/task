@@ -52,7 +52,7 @@ main img {
   height: 150px; }
 
 button {
-  width: 100%;
+  width: 50%;
   border-width: 0;
   padding: 0;
   background: #ffc107;
@@ -62,10 +62,10 @@ button {
   height: 85px;
   position: fixed;
   bottom: 0;
-  max-width: 225px;
+  /* max-width: 225px; */
   min-width: 225px;
   margin-bottom: 7px;
-  left: calc(50% - 120px); }
+  left: calc(50% - 25%); }
 
 main #one {
   width: 50px;

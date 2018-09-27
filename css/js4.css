@@ -25,7 +25,7 @@ main {
   padding-bottom: 100px; }
 
 button {
-  width: 100%;
+  width: 50%;
   border-width: 0;
   padding: 0;
   background: #ffc107;
@@ -35,10 +35,10 @@ button {
   height: 85px;
   position: fixed;
   bottom: 0;
-  max-width: 225px;
+  max-width: 5;
   min-width: 225px;
   margin-bottom: 7px;
-  left: calc(50% - 120px); }
+  left: calc(50% - 25%); }
 
 .box {
   margin: 3%;
