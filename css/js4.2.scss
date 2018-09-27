@@ -26,8 +26,6 @@ main{
   overflow: hidden;
 }
 button{
-  position: fixed;
-  bottom: 0;
   max-width: 768px;
   min-width: 320px;
   width: 50%;
@@ -36,7 +34,6 @@ button{
   border: 0;
   color: #FFFFFF;
   background: #FFC107;
-  left: calc(50% - 25%);
 }
 .box{
   margin: 3%;
@@ -82,6 +79,5 @@ button{
   bottom: 0;
   max-width: 768px;
   min-width: 320px;
-  background: #00ffff40;
   height: 80px;
 }

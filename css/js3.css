@@ -44,7 +44,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 70%;
-  height: 70%;
+  height: 46%;
   background: #ffedc5; }
 
 main img {
@@ -52,17 +52,13 @@ main img {
   height: 150px; }
 
 button {
-  width: 45%;
+  width: 73%;
   border-width: 0;
   background: #ffc107;
   outline: none;
   color: white;
-  font-size: 22px;
-  height: 70px;
-  position: fixed;
-  bottom: 10px;
-  min-width: 225px;
-  left: calc(50% - 22.5%); }
+  font-size: 20px;
+  height: 70px; }
 
 main #one {
   width: 50px;
@@ -72,7 +68,7 @@ main #one {
   color: red;
   background-color: white;
   position: absolute;
-  top: 130px; }
+  top: 224px; }
 
 #picture {
   position: absolute; }
@@ -99,5 +95,15 @@ main #one {
   min-width: 320px;
   background: #00ffff40;
   height: 80px; }
+
+.go {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 768px;
+  min-width: 320px; }
 
 /*# sourceMappingURL=js3.css.map */

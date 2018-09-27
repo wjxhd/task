@@ -13,27 +13,6 @@ var toupiaoArr=JSON.parse(sessionStorage.getItem("toupiaoArr"));//一顿操作�
 var Arr=JSON.parse(sessionStorage.getItem("Arr"));//一顿操作上一个页面的数组
 var wyz=JSON.parse(sessionStorage.getItem("wyz"));//一顿操作上一个页面的数组
 console.log(Arr);
-
-$("#over").click(function () {
-    var r=confirm("确定结束游戏？");
-    if (r==true){
-        sessionStorage.removeItem('Arr');
-        sessionStorage.removeItem('testCopy');
-        sessionStorage.removeItem('day');
-        sessionStorage.removeItem('indexArr');
-        sessionStorage.removeItem('x');
-        sessionStorage.removeItem('det');
-        sessionStorage.removeItem('sw');
-        sessionStorage.removeItem('y');
-        sessionStorage.removeItem('index');
-        sessionStorage.removeItem('u');
-        sessionStorage.removeItem('toupiaoArr');
-        window.location.href="js2.html";
-    }
-    else{
-        alert("游戏继续");
-    }
-})
 if(day == undefined){
     var day = 1
 }

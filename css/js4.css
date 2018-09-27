@@ -32,13 +32,7 @@ button {
   outline: none;
   color: white;
   font-size: 22px;
-  height: 85px;
-  position: fixed;
-  bottom: 0;
-  max-width: 5;
-  min-width: 225px;
-  margin-bottom: 7px;
-  left: calc(50% - 25%); }
+  height: 85px; }
 
 .box {
   margin: 3%;
@@ -66,5 +60,17 @@ button {
 
 .three {
   background: #83b09a; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  background: #5fc0cd;
+  max-width: 768px;
+  min-width: 320px; }
 
 /*# sourceMappingURL=js4.css.map */
