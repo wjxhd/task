@@ -77,7 +77,7 @@ input {
   color: #FFFFFF; }
 
 #noun {
-  line-height: 45px;
+  height: 45px;
   color: red;
   width: 61%;
   text-align: center; }
