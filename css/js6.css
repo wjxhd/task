@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.right-pic {
+  height: 23px;
+  padding: 10px; }
+
+.right-top {
+  display: flex;
+  float: right; }
+
+.pading-whole {
+  padding: 10px;
+  color: cornflowerblue; }
+
+/*# sourceMappingURL=js6.css.map */

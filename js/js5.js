@@ -27,7 +27,7 @@
 $("#entry").click(function () {
     $.ajax({
         url: '/carrots-admin-ajax/a/login',//后台
-        type: 'POST',//http 请求
+        type: 'post',//http 请求
         async: true,//异步
         contentTypt: 'application/json',
         dataType: "json",
