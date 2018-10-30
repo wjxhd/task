@@ -10,7 +10,7 @@ function begin() {
         list[three].style.backgroundColor = 'rgb'+ colors();
     }
     else {
-        begin()
+        begin();
     }
 }
 function colors() {

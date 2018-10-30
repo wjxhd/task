@@ -17,6 +17,7 @@ $("button").click(function(){
     window.location.href="js4.1.html";
 });
 
+
 sessionStorage.setItem("Arr", JSON.stringify(Arr));
 $("#return").click(function(){
     alert("返回上一个页面");

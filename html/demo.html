@@ -4,14 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue</title>
+    <script src=" https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="../js/demo.js"></script>
     <link rel="stylesheet" href="../css/demo.css">
-    <title>Document</title>
+
 </head>
 <body>
-<div id="one"></div>
+<!--<div id="app">-->
+
+    <!--<div id = "app">-->
+<!--<p style = "font-size:25px;">计数器: {{ counter }}</p>-->
+<!--<button @click = "counter++" style = "font-size:25px;">点我</button>-->
+<!--</div>-->
+
+
+<div class="flex">  <div>账号：</div>
+    <input id="main-top" ref="input1" type="text" maxlength="6">
+
+</div>
+
+    <div class="flex">  <div>密码：</div>
+        <input id="main-bottom" v-model="input2" type="password" maxlength="6" placeholder="密码">
+    </div>
+    <button id="yz"  @click = "counter++">登录</button>
+
+</div>
+
+<script>
+    // var vm = new Vue({
+    //     el: '#app',
+    //     data: {
+    //         counter: 1
+    //     }
+    // });
+    // vm.$watch('counter', function(nval, oval) {
+    //     alert('计数器值的变化 :' + oval + ' 变为 ' + nval + '!');
+    // });
+
+
+
+
+
+    var zh = 123456;//账号
+    var mm = 654321;//密码
+    //定义账号密码
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            data: {
+                result1: null,
+                result2: null,
+                input2: ""
+            },
+            created: function() {
+            // the created hook is called after the instance is created
+                alert('计数器值的变化 :' + oval + ' 变为 ' + nval + '!');
+        },
+
+        methods: {
+            test1: function () {
+                this.result1 = this.$refs.input1.value;
+            },
+
+            test2: function () {
+                this.result2 = this.input2;
+            }
+    }
+    }
+    })
+
+</script>
 </body>
-<script src="../js/jquery-3.3.1.min.js"></script>
-<script src="../js/state-machine.js"></script>
-<script src="../js/demo.js"></script>
 </html>
