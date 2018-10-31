@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Vue</title>
     <script src=" https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script src=" https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="../css/demo.css">
 </head>
@@ -11,7 +12,7 @@
 <div class="">
 <div id = "computed_props">
     <div class="flex magin">
-    账号 : <input id="one" class="sea_input" type = "text" maxlength="6" placeholder="请输入账号" onkeyup="value=value.replace(/[^\d]/g,'')">
+    账号 : <input id="one" class="sea_input" type = "text" maxlength="6" placeholder="请输入账号" onkeyup="value=value.replace(/[^\d]/g,'')" >
     <!--<p>{{ kilometers }}</p>-->
     </div>
         <div class="flex magin">
@@ -21,47 +22,66 @@
 <div class="flex">
     <button id="over" @click = "Search_con()" style = "font-size:25px;">登录</button>
 </div>
+
+
+    <div id="info">{{ message }}</div>
+
+
+
+
 </div>
-    <!--<p id="info" class="">{{ message }}</p>-->
 </div>
 
 <script type = "text/javascript">
 
-    //jquery+原生
-// $('#over').click(function () {
-//             var  name=document.getElementById("one").value;
-//         var  bottom=document.getElementById("two").value;
-//     console.log($("#one").val());
-//     console.log($("#two").val());
-// })
-
     //vue版本
+var zh = 123456;
+var mm = 654321;
+    // new Vue({
+    //     el: '#info',
+    //     data: {
+    //         keyword: '请输入账号和密码'
+    //     }
+    // })
 
     var vm = new Vue({
         el: '#computed_props',
         data: {
             kilometers : null,
             meters:null,
+            message:"请输入账号"
         },
         methods: {
             Search_con(){
-                alert("hello");
                 var keyword = document.getElementsByClassName("sea_input")[0].value;
-                console.log(("sea_input")[0].value)
-                console.log(("sea_input")[1].value)
-                var keyword = document.getElementsByClassName("sea_input")[1].value;
+                console.log(keyword)
+                var keywordtwo = document.getElementsByClassName("sea_input")[1].value;
+                console.log(keywordtwo)
+
+                // if (keyword == zh) {
+                //     message:"请输入密码"
+                // }
+                //判断账号密码是否正确
+                 if (keyword == zh){
+                    if (keywordtwo == mm) {
+                        window.location.href="https://www.runoob.com/vue2/vue-if.html";
+                    }
+                }
         }
         },
-
     });
 
-    // 用来写判断
-    // new Vue({
-    //     el: '#info',
-    //     data:{
-    //         message:'请输入账号和密码'
-    //     }
+
+
+    //jquery+原生
+    // $('#over').click(function () {
+    //             var  name=document.getElementById("one").value;
+    //         var  bottom=document.getElementById("two").value;
+    //     console.log($("#one").val());
+    //     console.log($("#two").val());
     // })
+
+
 </script>
 </body>
 </html>
